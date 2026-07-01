@@ -1,9 +1,19 @@
 import sqlite3
 import os
+import sys
 import socket
 import datetime
 
-DB_PATH = 'audit_logs.db'
+def get_user_data_dir():
+    """Retorna el directorio de datos de usuario persistente (AppData/Local/Nexus)."""
+    appdata = os.environ.get("LOCALAPPDATA")
+    if not appdata:
+        appdata = os.path.join(os.path.expanduser("~"), "AppData", "Local")
+    path = os.path.join(appdata, "Nexus")
+    os.makedirs(path, exist_ok=True)
+    return path
+
+DB_PATH = os.path.join(get_user_data_dir(), 'audit_logs.db')
 
 def get_connection():
     return sqlite3.connect(DB_PATH)

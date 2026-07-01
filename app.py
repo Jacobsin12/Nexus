@@ -30,6 +30,13 @@ def resource_path(relative_path):
     return os.path.join(base_path, relative_path)
 
 
+def get_app_profile_dir():
+    """Retorna el directorio para credenciales y configuraciones locales en AppData."""
+    path = os.path.join(database.get_user_data_dir(), ".app_profile")
+    os.makedirs(path, exist_ok=True)
+    return path
+
+
 def get_pipelines_search_paths():
     """Retorna una lista de rutas (ordenadas por prioridad) para buscar perfiles."""
     paths = []
@@ -39,13 +46,18 @@ def get_pipelines_search_paths():
     if os.path.exists(bundled_dir):
         paths.append(bundled_dir)
         
-    # 2. Junto al ejecutable (para el .exe compilado portátil)
+    # 2. Directorio de datos del usuario en AppData
+    user_dir = os.path.join(database.get_user_data_dir(), "pipelines")
+    if os.path.exists(user_dir):
+        paths.append(user_dir)
+        
+    # 3. Junto al ejecutable (para el .exe compilado portátil)
     if getattr(sys, 'frozen', False):
         exe_dir = os.path.join(os.path.dirname(sys.executable), "pipelines")
         if exe_dir not in paths:
             paths.append(exe_dir)
             
-    # 3. Directorio de trabajo actual (CWD)
+    # 4. Directorio de trabajo actual (CWD)
     cwd_dir = os.path.abspath("pipelines")
     if cwd_dir not in paths:
         paths.append(cwd_dir)
@@ -54,24 +66,8 @@ def get_pipelines_search_paths():
 
 
 def get_writable_pipelines_dir():
-    """Retorna el directorio donde se deben guardar los nuevos perfiles personalizados."""
-    # Intentar primero junto al ejecutable si está compilado
-    if getattr(sys, 'frozen', False):
-        exe_dir = os.path.dirname(sys.executable)
-        p_dir = os.path.join(exe_dir, "pipelines")
-        try:
-            os.makedirs(p_dir, exist_ok=True)
-            # Validar escritura
-            test_file = os.path.join(p_dir, ".write_test")
-            with open(test_file, "w") as f:
-                f.write("test")
-            os.remove(test_file)
-            return p_dir
-        except Exception:
-            pass
-            
-    # CWD como alternativa
-    p_dir = os.path.abspath("pipelines")
+    """Retorna el directorio donde se deben guardar los nuevos perfiles personalizados (en AppData)."""
+    p_dir = os.path.join(database.get_user_data_dir(), "pipelines")
     os.makedirs(p_dir, exist_ok=True)
     return p_dir
 
@@ -668,7 +664,7 @@ def run_pipeline(profile_name, src, dst):
                     
                     used_creds = False
                     exit_code = -1
-                    creds_path = os.path.join(".app_profile", "admin_creds.json")
+                    creds_path = os.path.join(get_app_profile_dir(), "admin_creds.json")
                     if os.path.exists(creds_path):
                         try:
                             with open(creds_path, "r", encoding="utf-8") as f:
@@ -921,7 +917,7 @@ class Api:
         profiles_dict = {}
         
         # Cargar perfiles eliminados (soft-deleted)
-        deleted_list_path = os.path.join(".app_profile", "deleted_profiles.json")
+        deleted_list_path = os.path.join(get_app_profile_dir(), "deleted_profiles.json")
         deleted_ids = set()
         if os.path.exists(deleted_list_path):
             try:
@@ -970,8 +966,7 @@ class Api:
                     pass
                     
             # 2. Registrar en la lista de exclusión local
-            deleted_list_path = os.path.join(".app_profile", "deleted_profiles.json")
-            os.makedirs(".app_profile", exist_ok=True)
+            deleted_list_path = os.path.join(get_app_profile_dir(), "deleted_profiles.json")
             
             deleted_profiles = []
             if os.path.exists(deleted_list_path):
@@ -1049,7 +1044,7 @@ class Api:
             call_js('add_log', f"Lanzando como administrador: {exe_path}", "warning")
             
             used_creds = False
-            creds_path = os.path.join(".app_profile", "admin_creds.json")
+            creds_path = os.path.join(get_app_profile_dir(), "admin_creds.json")
             if os.path.exists(creds_path):
                 try:
                     with open(creds_path, "r", encoding="utf-8") as f:
@@ -1287,8 +1282,7 @@ class Api:
             username = data.get("username")
             password = data.get("password")
             save_data = {"username": username, "password": password}
-            os.makedirs(".app_profile", exist_ok=True)
-            filepath = os.path.join(".app_profile", "admin_creds.json")
+            filepath = os.path.join(get_app_profile_dir(), "admin_creds.json")
             with open(filepath, "w", encoding="utf-8") as f:
                 json.dump(save_data, f)
             return {"success": True, "message": "Credenciales de administrador guardadas exitosamente."}
@@ -1298,7 +1292,7 @@ class Api:
     def delete_admin_credentials(self):
         """Borra las credenciales guardadas."""
         try:
-            filepath = os.path.join(".app_profile", "admin_creds.json")
+            filepath = os.path.join(get_app_profile_dir(), "admin_creds.json")
             if os.path.exists(filepath):
                 os.remove(filepath)
             return {"success": True, "message": "Credenciales eliminadas exitosamente."}
@@ -1307,7 +1301,7 @@ class Api:
 
     def get_admin_credentials(self):
         """Obtiene si existen credenciales guardadas y el usuario."""
-        filepath = os.path.join(".app_profile", "admin_creds.json")
+        filepath = os.path.join(get_app_profile_dir(), "admin_creds.json")
         if os.path.exists(filepath):
             try:
                 with open(filepath, "r", encoding="utf-8") as f:

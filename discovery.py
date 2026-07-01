@@ -2,6 +2,7 @@ import os
 import json
 import psutil
 import string
+import database
 
 def get_drives():
     drives = [p.mountpoint for p in psutil.disk_partitions(all=False) if p.fstype]
@@ -109,12 +110,7 @@ def create_standard_profile(profile_id, source_folder, executable):
     _save_json(profile_id, data)
 
 def _get_writable_pipelines_dir():
-    import sys
-    if getattr(sys, 'frozen', False):
-        base_dir = os.path.dirname(sys.executable)
-    else:
-        base_dir = os.path.abspath(".")
-    p_dir = os.path.join(base_dir, "pipelines")
+    p_dir = os.path.join(database.get_user_data_dir(), "pipelines")
     os.makedirs(p_dir, exist_ok=True)
     return p_dir
 
