@@ -1,0 +1,25 @@
+{
+    "profile_name": "Catia R21",
+    "source_folder_name": "F:\\INSTALADORES\\APPS PESADAS\\Catia\\R21",
+    "steps": [
+        {
+            "type": "copy",
+            "description": "Copiando Catia R21 a local",
+            "fail_on_error": true
+        },
+        {
+            "type": "admin_install",
+            "description": "Instalando Catia R21 - Paso 1 (setup.exe)",
+            "executable": "Files\\1\\setup.exe",
+            "arguments": "/quiet /norestart",
+            "fail_on_error": true
+        },
+        {
+            "type": "admin_install",
+            "description": "Instalando Catia R21 - Paso 2 (SetupSPKB R21)",
+            "executable": "SetupSPKB R21",
+            "arguments": "/quiet /norestart",
+            "fail_on_error": true
+        }
+    ]
+}

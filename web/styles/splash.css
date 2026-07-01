@@ -1,0 +1,204 @@
+/* ===================================
+   Splash — Pantalla de carga animada
+   =================================== */
+
+/* Contenedor principal del splash - cubre toda la pantalla */
+.splash-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #030712;
+    background-image:
+        radial-gradient(circle at 20% 30%, rgba(139, 92, 246, 0.25), transparent 50%),
+        radial-gradient(circle at 80% 70%, rgba(56, 189, 248, 0.2), transparent 50%),
+        radial-gradient(circle at 50% 50%, rgba(139, 92, 246, 0.08), transparent 70%);
+    transition: opacity 0.6s cubic-bezier(0.4, 0, 0.2, 1), transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    will-change: opacity, transform;
+}
+
+.splash-screen.fade-out {
+    opacity: 0;
+    transform: scale(1.05);
+    pointer-events: none;
+}
+
+/* Partículas decorativas flotantes */
+.splash-particles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.splash-particle {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: rgba(139, 92, 246, 0.4);
+    animation: particleFloat 6s ease-in-out infinite;
+}
+
+.splash-particle:nth-child(1) { top: 15%; left: 10%; animation-delay: 0s; animation-duration: 5s; }
+.splash-particle:nth-child(2) { top: 25%; left: 85%; animation-delay: 1s; animation-duration: 7s; background: rgba(56, 189, 248, 0.4); width: 6px; height: 6px; }
+.splash-particle:nth-child(3) { top: 70%; left: 20%; animation-delay: 2s; animation-duration: 6s; }
+.splash-particle:nth-child(4) { top: 80%; left: 75%; animation-delay: 0.5s; animation-duration: 8s; background: rgba(56, 189, 248, 0.3); width: 5px; height: 5px; }
+.splash-particle:nth-child(5) { top: 45%; left: 5%;  animation-delay: 3s; animation-duration: 5.5s; }
+.splash-particle:nth-child(6) { top: 55%; left: 92%; animation-delay: 1.5s; animation-duration: 6.5s; background: rgba(139, 92, 246, 0.3); width: 3px; height: 3px; }
+.splash-particle:nth-child(7) { top: 10%; left: 50%; animation-delay: 2.5s; animation-duration: 7.5s; background: rgba(56, 189, 248, 0.35); }
+.splash-particle:nth-child(8) { top: 90%; left: 45%; animation-delay: 0.8s; animation-duration: 5.8s; width: 5px; height: 5px; }
+
+@keyframes particleFloat {
+    0%, 100% { transform: translateY(0) translateX(0); opacity: 0.3; }
+    25%      { transform: translateY(-20px) translateX(10px); opacity: 0.8; }
+    50%      { transform: translateY(-10px) translateX(-15px); opacity: 0.5; }
+    75%      { transform: translateY(-25px) translateX(5px); opacity: 0.9; }
+}
+
+/* Logo con glow pulsante */
+.splash-logo-container {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.splash-logo {
+    width: 90px;
+    height: 90px;
+    border-radius: 22px;
+    object-fit: contain;
+    animation: logoReveal 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards,
+               logoPulse 2.5s ease-in-out 0.8s infinite;
+    opacity: 0;
+    filter: drop-shadow(0 0 25px rgba(139, 92, 246, 0.5));
+}
+
+@keyframes logoReveal {
+    0%   { opacity: 0; transform: scale(0.6) translateY(20px); }
+    100% { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+@keyframes logoPulse {
+    0%, 100% { filter: drop-shadow(0 0 20px rgba(139, 92, 246, 0.4)); transform: scale(1); }
+    50%      { filter: drop-shadow(0 0 35px rgba(139, 92, 246, 0.7)); transform: scale(1.04); }
+}
+
+/* Anillo brillante detrás del logo */
+.splash-logo-ring {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 120px;
+    height: 120px;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    border: 2px solid rgba(139, 92, 246, 0.2);
+    animation: ringExpand 2.5s ease-in-out infinite;
+}
+
+@keyframes ringExpand {
+    0%   { transform: translate(-50%, -50%) scale(0.8); opacity: 0.6; border-color: rgba(139, 92, 246, 0.3); }
+    50%  { transform: translate(-50%, -50%) scale(1.2); opacity: 0.1; border-color: rgba(56, 189, 248, 0.2); }
+    100% { transform: translate(-50%, -50%) scale(0.8); opacity: 0.6; border-color: rgba(139, 92, 246, 0.3); }
+}
+
+/* Título de la app */
+.splash-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #f8fafc;
+    letter-spacing: 0.08em;
+    margin-bottom: 0.25rem;
+    animation: textFadeIn 0.6s 0.3s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+    opacity: 0;
+}
+
+.splash-subtitle {
+    font-size: 0.85rem;
+    color: #94a3b8;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    margin-bottom: 2.5rem;
+    animation: textFadeIn 0.6s 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+    opacity: 0;
+}
+
+@keyframes textFadeIn {
+    0%   { opacity: 0; transform: translateY(10px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Barra de progreso del splash */
+.splash-progress-container {
+    width: 260px;
+    animation: textFadeIn 0.6s 0.7s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+    opacity: 0;
+}
+
+.splash-progress-track {
+    width: 100%;
+    height: 4px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+}
+
+.splash-progress-bar {
+    height: 100%;
+    width: 0%;
+    border-radius: 4px;
+    background: linear-gradient(90deg, #8b5cf6, #38bdf8, #8b5cf6);
+    background-size: 200% 100%;
+    animation: progressShimmer 1.5s linear infinite;
+    transition: width 0.3s ease-out;
+    box-shadow: 0 0 12px rgba(139, 92, 246, 0.5);
+}
+
+@keyframes progressShimmer {
+    0%   { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+}
+
+/* Texto de estado de carga */
+.splash-status {
+    margin-top: 1rem;
+    font-size: 0.75rem;
+    color: #64748b;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    animation: textFadeIn 0.6s 0.9s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+    opacity: 0;
+}
+
+.splash-status-dots::after {
+    content: '';
+    animation: dots 1.5s steps(4, end) infinite;
+}
+
+@keyframes dots {
+    0%   { content: ''; }
+    25%  { content: '.'; }
+    50%  { content: '..'; }
+    75%  { content: '...'; }
+    100% { content: ''; }
+}
+
+/* Ocultar la app mientras el splash está activo */
+.app-hidden {
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+.app-visible {
+    opacity: 1;
+}

@@ -1,0 +1,18 @@
+{
+    "profile_name": "Metrolog Viewer x24",
+    "source_folder_name": "F:\\INSTALADORES\\METROLOGS\\Viewer V24GA",
+    "steps": [
+        {
+            "type": "copy",
+            "description": "Copiando Metrolog Viewer x24 a local",
+            "fail_on_error": true
+        },
+        {
+            "type": "admin_install",
+            "description": "Instalando Metrolog Viewer x24",
+            "executable": "MetrologX4Viewer-V24GA-x64.exe",
+            "arguments": "/quiet /norestart",
+            "fail_on_error": true
+        }
+    ]
+}

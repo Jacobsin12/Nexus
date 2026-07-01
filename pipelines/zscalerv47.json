@@ -1,0 +1,18 @@
+{
+    "profile_name": "Zscaler V4.7",
+    "source_folder_name": "F:\\INSTALADORES\\ZSCALER",
+    "steps": [
+        {
+            "type": "copy",
+            "description": "Copiando Zscaler V4.7 a local",
+            "fail_on_error": true
+        },
+        {
+            "type": "admin_install",
+            "description": "Instalando Zscaler V4.7",
+            "executable": "Deploy-Application.exe",
+            "arguments": "/quiet /norestart",
+            "fail_on_error": true
+        }
+    ]
+}

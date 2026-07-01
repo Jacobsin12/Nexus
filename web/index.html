@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus</title>
+    <link rel="icon" type="image/x-icon" href="logo.ico">
+
+    <!-- Estilos modulares -->
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/components.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/console.css">
+    <link rel="stylesheet" href="styles/progress.css">
+    <link rel="stylesheet" href="styles/modals.css">
+    <link rel="stylesheet" href="styles/toasts.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="stylesheet" href="styles/splash.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Iconos Phosphor -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+
+<body>
+    <!-- Splash Screen -->
+    <div id="splash-screen" class="splash-screen">
+        <div class="splash-particles">
+            <div class="splash-particle"></div>
+            <div class="splash-particle"></div>
+            <div class="splash-particle"></div>
+            <div class="splash-particle"></div>
+            <div class="splash-particle"></div>
+            <div class="splash-particle"></div>
+            <div class="splash-particle"></div>
+            <div class="splash-particle"></div>
+        </div>
+        <div class="splash-logo-container">
+            <div class="splash-logo-ring"></div>
+            <img src="logo.png" alt="Nexus" class="splash-logo">
+        </div>
+        <div class="splash-title">Nexus</div>
+        <div class="splash-subtitle">Motor de Transferencia Ultrarrápida</div>
+        <div class="splash-progress-container">
+            <div class="splash-progress-track">
+                <div id="splash-progress-bar" class="splash-progress-bar"></div>
+            </div>
+        </div>
+        <div class="splash-status">Inicializando sistema<span class="splash-status-dots"></span></div>
+    </div>
+
+    <div class="app-container app-hidden">
+        <!-- Sidebar for Disks -->
+        <aside class="sidebar glass-panel">
+            <!-- Device Info Widget -->
+            <div class="device-info-card" id="device-info-card" title="Hacer clic para copiar el nombre del equipo">
+                <div class="device-icon-container">
+                    <i class="ph ph-desktop"></i>
+                </div>
+                <div class="device-details" style="flex: 1;">
+                    <span class="device-label">Este Equipo</span>
+                    <span id="device-name" class="device-val">Detectando...</span>
+                </div>
+                <div class="device-copy-icon" style="opacity: 0.5; transition: opacity 0.2s;">
+                    <i class="ph ph-copy" style="font-size: 1rem; color: var(--text-secondary);"></i>
+                </div>
+            </div>
+
+            <div class="sidebar-header">
+                <h2><i class="ph ph-hard-drives"></i> Discos</h2>
+                <button id="btn-refresh" class="icon-btn" title="Actualizar Discos">
+                    <i class="ph ph-arrows-clockwise"></i>
+                </button>
+            </div>
+            <div id="disk-list" class="disk-list">
+                <!-- Los discos se renderizarán aquí -->
+                <div class="loading-container"><i class="ph ph-spinner ph-spin"></i> Cargando discos...</div>
+            </div>
+            <button id="btn-dashboard" class="btn-secondary" style="margin-top: 15px; width: 100%;">
+                <i class="ph ph-chart-bar"></i> Ver Dashboard
+            </button>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="header">
+                <div class="header-title">
+                    <img src="logo.png" alt="Logo" class="app-logo">
+                    <h1>Nexus <span class="app-version">v1.2.0</span></h1>
+                </div>
+                <p>Transferencia ultrarrápida usando el motor de Robocopy</p>
+            </header>
+
+            <!-- Mode Tabs -->
+            <div class="mode-tabs">
+                <button id="tab-auto" class="mode-tab active"><i class="ph ph-robot"></i> Instalación por Perfil</button>
+                <button id="tab-manual" class="mode-tab"><i class="ph ph-hand-pointing"></i> Transferencia Manual</button>
+                <button id="tab-backup" class="mode-tab"><i class="ph ph-copy"></i> Respaldo Rápido</button>
+            </div>
+
+            <div class="setup-container">
+                <div class="setup-group" id="auto-profile-group">
+                    <label>Perfil de Aplicación</label>
+                    <div style="display: flex; gap: 10px;">
+                        <div class="custom-select-wrapper" style="flex: 1; position: relative;">
+                            <input type="hidden" id="profile-select" value="manual">
+                            <div class="input-wrapper" id="profile-select-trigger" style="cursor: pointer; padding: 0.2rem 0.5rem;">
+                                <i class="ph ph-cube text-muted"></i>
+                                <input type="text" id="search-profile" placeholder="Selecciona o busca un perfil..." autocomplete="off" style="width: 100%; border: none; background: transparent; color: var(--text-primary); padding: 8px; outline: none; font-size: 0.95rem; cursor: pointer;" />
+                                <i class="ph ph-caret-down text-muted" style="padding-right: 0.5rem; pointer-events: none;"></i>
+                            </div>
+                            <div id="profile-options-panel" class="custom-select-options">
+                                <div class="custom-select-option active" data-value="manual"><i class="ph ph-hand-pointing"></i> Manual (Buscar origen manualmente)</div>
+                                <div id="custom-profile-list"></div>
+                            </div>
+                        </div>
+                        <button id="btn-scan-memory" class="btn-primary" title="Escanear unidades extraíbles"
+                            style="margin-top: 0; width: auto; padding: 0 1rem; border-radius: 8px; white-space: nowrap;">
+                            <i class="ph ph-usb"></i> Escanear
+                        </button>
+                    </div>
+                    <div style="display: flex; gap: 10px; margin-top: 10px;">
+                        <button id="btn-create-profile-toggle" class="btn-secondary" style="flex: 1; font-size: 0.85rem; padding: 8px;"><i class="ph ph-plus-circle"></i> Nuevo Perfil</button>
+                    </div>
+
+                    <!-- Panel de Creación de Perfil (Oculto) -->
+                    <div id="create-profile-panel" style="display: none; background: rgba(255, 255, 255, 0.02); padding: 15px; border-radius: 8px; border: 1px solid rgba(255, 255, 255, 0.05); margin-top: 10px; flex-direction: column; gap: 10px;">
+                        <h3 style="font-size: 0.95rem; font-weight: 600; color: var(--accent-hover);"><i class="ph ph-plus-circle"></i> Crear Perfil Personalizado</h3>
+                        <div style="display: flex; flex-direction: column; gap: 4px;">
+                            <span style="font-size: 0.8rem; color: var(--text-secondary);">Nombre del Perfil</span>
+                            <input type="text" id="new-profile-name" placeholder="Ej. Adobe Reader" style="background: var(--input-bg); border: 1px solid var(--panel-border); border-radius: 6px; padding: 8px 10px; color: var(--text-primary); outline: none; font-size: 0.9rem;">
+                        </div>
+                        <div style="display: flex; flex-direction: column; gap: 4px;">
+                            <span style="font-size: 0.8rem; color: var(--text-secondary);">Carpeta Origen (en la USB)</span>
+                            <div style="display: flex; gap: 10px;">
+                                <input type="text" id="new-profile-folder" readonly placeholder="Selecciona la carpeta..." style="flex: 1; background: var(--input-bg); border: 1px solid var(--panel-border); border-radius: 6px; padding: 8px 10px; color: var(--text-primary); outline: none; font-size: 0.9rem;">
+                                <button id="btn-new-profile-browse" class="btn-secondary" style="padding: 8px 12px; font-size: 0.85rem; margin-top:0;">Buscar</button>
+                            </div>
+                        </div>
+                        <!-- Contenedor de Ejecutables -->
+                        <div id="profile-installers-container" style="display: flex; flex-direction: column; gap: 12px;">
+                            <div class="installer-block" style="background: rgba(255,255,255,0.01); padding: 10px; border-radius: 6px; border: 1px solid rgba(255,255,255,0.03); display: flex; flex-direction: column; gap: 8px;">
+                                <div style="display: flex; justify-content: space-between; align-items: center;">
+                                    <span style="font-size: 0.85rem; font-weight: bold; color: var(--accent-color);">Ejecutable 1 (Principal)</span>
+                                </div>
+                                <div style="display: flex; flex-direction: column; gap: 4px;">
+                                    <span style="font-size: 0.8rem; color: var(--text-secondary);">Archivo Ejecutable (ej. Setup.exe)</span>
+                                    <div style="display: flex; gap: 10px;">
+                                        <input type="text" class="new-profile-exe" placeholder="Ej. Setup.exe o install.bat" style="flex: 1; background: var(--input-bg); border: 1px solid var(--panel-border); border-radius: 6px; padding: 8px 10px; color: var(--text-primary); outline: none; font-size: 0.9rem;">
+                                        <button type="button" class="btn-new-profile-exe-browse btn-secondary" style="padding: 8px 12px; font-size: 0.85rem; margin-top:0;">Buscar</button>
+                                    </div>
+                                </div>
+                                <div style="display: flex; flex-direction: column; gap: 4px;">
+                                    <span style="font-size: 0.8rem; color: var(--text-secondary);">Argumentos de Instalación Silenciosa</span>
+                                    <input type="text" class="new-profile-args" placeholder="Ej. /quiet /norestart" value="/quiet /norestart" style="background: var(--input-bg); border: 1px solid var(--panel-border); border-radius: 6px; padding: 8px 10px; color: var(--text-primary); outline: none; font-size: 0.9rem;">
+                                </div>
+                                <div style="display: flex; align-items: center; gap: 8px; margin: 4px 0;">
+                                    <input type="checkbox" class="new-profile-admin" checked style="width: 16px; height: 16px; accent-color: var(--accent-color);">
+                                    <span style="font-size: 0.85rem; color: var(--text-primary);">Ejecutar como Administrador</span>
+                                </div>
+                            </div>
+                        </div>
+                        <button id="btn-add-profile-installer" type="button" class="btn-secondary" style="font-size: 0.8rem; padding: 6px 10px; margin-top: 5px; width: 100%; border: 1px dashed var(--panel-border); background: transparent;"><i class="ph ph-plus"></i> + Añadir Dependencia / Ejecutable adicional</button>
+                        <div style="display: flex; gap: 10px; margin-top: 5px;">
+                            <button id="btn-save-profile" class="btn-primary" style="flex: 1; padding: 8px; font-size: 0.9rem; margin-top:0;"><i class="ph ph-floppy-disk"></i> Guardar Perfil</button>
+                            <button id="btn-cancel-profile" class="btn-secondary" style="flex: 1; padding: 8px; font-size: 0.9rem; margin-top:0;">Cancelar</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="setup-group" id="auto-source-group">
+                    <label>Carpeta Origen</label>
+                    <div class="input-wrapper">
+                        <i class="ph ph-folder-open text-muted"></i>
+                        <input type="text" id="input-source" readonly placeholder="Selecciona la carpeta a copiar..." />
+                        <button id="btn-source" class="btn-secondary">Buscar</button>
+                    </div>
+                </div>
+
+                <div class="setup-group" id="manual-source-group" style="display: none;">
+                    <label>Archivos y Carpetas a Transferir</label>
+                    <div style="display: flex; gap: 10px; margin-bottom: 10px;">
+                        <button id="btn-add-files" class="btn-secondary" style="flex: 1;"><i class="ph ph-files"></i> Añadir Archivos</button>
+                        <button id="btn-add-folder" class="btn-secondary" style="flex: 1;"><i class="ph ph-folder-plus"></i> Añadir Carpeta</button>
+                        <button id="btn-clear-manual" class="btn-secondary" style="width: auto; padding: 0 15px;" title="Limpiar"><i class="ph ph-trash"></i></button>
+                    </div>
+                    <ul id="manual-items-list" class="manual-list">
+                        <!-- Items irán aquí -->
+                    </ul>
+                </div>
+
+                <!-- Respaldo Rápido Group -->
+                <div class="setup-group" id="backup-group" style="display: none;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                        <label style="margin-bottom: 0;">Carpetas de Usuario y Elementos Adicionales</label>
+                        <div style="display: flex; gap: 8px;">
+                            <button id="btn-backup-select-all" class="btn-secondary" style="font-size: 0.75rem; padding: 4px 8px; margin-top: 0;"><i class="ph ph-check-square"></i> Marcar Todo</button>
+                            <button id="btn-backup-deselect-all" class="btn-secondary" style="font-size: 0.75rem; padding: 4px 8px; margin-top: 0;"><i class="ph ph-square"></i> Desmarcar Todo</button>
+                        </div>
+                    </div>
+                    <div id="backup-folders-list" style="display: flex; flex-direction: column; gap: 10px; background: rgba(15, 23, 42, 0.4); padding: 15px; border-radius: 8px; border: 1px solid rgba(255, 255, 255, 0.05); max-height: 250px; overflow-y: auto; margin-bottom: 10px;">
+                        <div class="loading-container"><i class="ph ph-spinner ph-spin"></i> Detectando carpetas...</div>
+                    </div>
+                    <div style="display: flex; gap: 10px; margin-bottom: 15px;">
+                        <button id="btn-backup-add-files" class="btn-secondary" style="flex: 1; font-size: 0.85rem; padding: 8px 12px;"><i class="ph ph-files"></i> Agregar Archivos</button>
+                        <button id="btn-backup-add-folder" class="btn-secondary" style="flex: 1; font-size: 0.85rem; padding: 8px 12px;"><i class="ph ph-folder-plus"></i> Agregar Carpeta</button>
+                    </div>
+                    
+                    <label style="display: block; margin-bottom: 8px;">Nombre de Carpeta Destino (Opcional)</label>
+                    <div class="input-wrapper">
+                        <i class="ph ph-textbox text-muted"></i>
+                        <input type="text" id="custom-backup-name" placeholder="Ej. Respaldo_Cliente (Vacío para usar Respaldo_EQUIPO)" />
+                    </div>
+                </div>
+
+                <div class="setup-icon">
+                    <i class="ph ph-arrow-circle-down"></i>
+                </div>
+
+                <div class="setup-group">
+                    <label>Destino</label>
+                    <div class="input-wrapper">
+                        <i class="ph ph-folder-notch text-muted"></i>
+                        <input type="text" id="input-dest" readonly placeholder="Selecciona dónde guardar..." />
+                        <button id="btn-dest" class="btn-secondary">Buscar</button>
+                    </div>
+                </div>
+
+                <div style="display: flex; gap: 1rem;">
+                    <button id="btn-start" class="btn-primary" style="flex: 1;">
+                        <i class="ph ph-rocket-launch"></i> Iniciar Transferencia
+                    </button>
+                    <button id="btn-cancel" class="btn-danger" style="display: none; flex: 1;">
+                        <i class="ph ph-stop-circle"></i> Cancelar
+                    </button>
+                </div>
+
+
+            </div>
+
+            <section class="console-section glass-panel">
+                <div class="console-header">
+                    <h3>
+                        <i class="ph ph-terminal-window"></i> Consola de Operación
+                        <button id="btn-maximize-console" title="Maximizar / Restaurar" style="background: none; border: none; color: var(--text-secondary); cursor: pointer; font-size: 1.1rem; display: inline-flex; align-items: center; justify-content: center; margin-left: 8px; vertical-align: middle; transition: color 0.2s;">
+                            <i class="ph ph-corners-out"></i>
+                        </button>
+                    </h3>
+                    <div class="status-indicator">
+                        <span id="status-dot" class="dot idle"></span>
+                        <span id="status-text">Inactivo</span>
+                    </div>
+                </div>
+
+                <!-- Barra de Progreso Integrada en la Consola -->
+                <div id="transfer-progress-container" class="console-progress" style="display: none;">
+                    <div class="console-progress-header">
+                        <span id="progress-status">Esperando...</span>
+                        <span id="progress-percent" class="progress-percent">0%</span>
+                    </div>
+                    <div class="console-progress-bar-container">
+                        <div id="progress-bar" class="console-progress-bar" style="width: 0%;"></div>
+                    </div>
+                    <div class="console-progress-details">
+                        <span id="progress-speed"><i class="ph ph-gauge"></i> Inactivo</span>
+                        <span id="progress-eta"><i class="ph ph-clock"></i> ETA: --:--</span>
+                    </div>
+                </div>
+
+                <div class="console-body" id="console-output">
+                    <div class="log-line text-muted">Esperando instrucciones...</div>
+                </div>
+            </section>
+        </main>
+
+    </div>
+
+    <!-- Contenedor para Alertas Personalizadas -->
+    <div id="toast-container" class="toast-container"></div>
+
+    <!-- Modal de Dashboard -->
+    <div id="dashboard-modal" class="modal">
+        <div class="modal-content glass-panel">
+            <span class="close-btn">&times;</span>
+            <h2><i class="ph ph-chart-bar"></i> Dashboard de Rendimiento</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h3>Total Operaciones</h3>
+                    <p id="stat-total">0</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Tasa de Éxito</h3>
+                    <p id="stat-success">0%</p>
+                </div>
+            </div>
+            <h3>Últimas 5 Operaciones</h3>
+            <ul id="recent-logs" class="logs-list"></ul>
+        </div>
+    </div>
+
+    <!-- Modal de Detalles de Operación -->
+    <div id="log-detail-modal" class="modal">
+        <div class="modal-content glass-panel" style="max-width: 500px;">
+            <span class="close-btn" id="close-log-detail">&times;</span>
+            <h2><i class="ph ph-info"></i> Detalles de Operación</h2>
+            <div style="margin-top: 1.5rem; display: flex; flex-direction: column; gap: 12px;">
+                <div style="display: flex; justify-content: space-between; border-bottom: 1px solid rgba(255,255,255,0.05); padding-bottom: 8px;">
+                    <span style="color: var(--text-secondary);">Tipo de Operación:</span>
+                    <strong id="log-detail-op-type">--</strong>
+                </div>
+                <div style="display: flex; justify-content: space-between; border-bottom: 1px solid rgba(255,255,255,0.05); padding-bottom: 8px;">
+                    <span style="color: var(--text-secondary);">Flujo de Discos:</span>
+                    <strong id="log-detail-flow">--</strong>
+                </div>
+                <div style="display: flex; justify-content: space-between; border-bottom: 1px solid rgba(255,255,255,0.05); padding-bottom: 8px;">
+                    <span style="color: var(--text-secondary);">Tamaño Total:</span>
+                    <strong id="log-detail-size">--</strong>
+                </div>
+                <div style="display: flex; justify-content: space-between; border-bottom: 1px solid rgba(255,255,255,0.05); padding-bottom: 8px;">
+                    <span style="color: var(--text-secondary);">Velocidad de Escritura:</span>
+                    <strong id="log-detail-speed" style="color: var(--success-color);">--</strong>
+                </div>
+                <div style="display: flex; justify-content: space-between; border-bottom: 1px solid rgba(255,255,255,0.05); padding-bottom: 8px;">
+                    <span style="color: var(--text-secondary);">Tiempo Transcurrido:</span>
+                    <strong id="log-detail-duration">--</strong>
+                </div>
+                <div style="display: flex; justify-content: space-between; border-bottom: 1px solid rgba(255,255,255,0.05); padding-bottom: 8px;">
+                    <span style="color: var(--text-secondary);">Fecha y Hora:</span>
+                    <strong id="log-detail-date">--</strong>
+                </div>
+                <div style="display: flex; flex-direction: column; gap: 4px;">
+                    <span style="color: var(--text-secondary);">Origen:</span>
+                    <span id="log-detail-src" style="word-break: break-all; font-family: monospace; font-size: 0.8rem; background: rgba(0,0,0,0.2); padding: 6px; border-radius: 4px;">--</span>
+                </div>
+                <div style="display: flex; flex-direction: column; gap: 4px;">
+                    <span style="color: var(--text-secondary);">Destino:</span>
+                    <span id="log-detail-dst" style="word-break: break-all; font-family: monospace; font-size: 0.8rem; background: rgba(0,0,0,0.2); padding: 6px; border-radius: 4px;">--</span>
+                </div>
+                <div id="log-detail-error-container" style="display: none; flex-direction: column; gap: 4px;">
+                    <span style="color: var(--danger-color); font-weight: bold;">Error presentado:</span>
+                    <span id="log-detail-error-msg" style="word-break: break-all; font-family: monospace; font-size: 0.8rem; background: rgba(220,53,69,0.1); color: var(--danger-color); padding: 6px; border-radius: 4px; border: 1px solid rgba(220,53,69,0.2);">--</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Selección de Instalador -->
+    <div id="installer-picker-modal" class="modal">
+        <div class="modal-content glass-panel modal-sm">
+            <span class="close-btn" id="close-installer-picker">&times;</span>
+            <h2 style="color: var(--accent-primary); margin-bottom: 15px;"><i class="ph ph-list-checks"></i> Seleccionar Instalador</h2>
+            <p style="color: var(--text-secondary); margin-bottom: 15px;">Se encontraron los siguientes instaladores. Haz clic en el que deseas ejecutar como administrador:</p>
+            <ul id="installer-list" class="installer-list"></ul>
+        </div>
+    </div>
+
+    <!-- Modal Confirmación ETA -->
+    <div id="eta-confirm-modal" class="modal">
+        <div class="modal-content glass-panel modal-eta">
+            <h2 style="color: var(--accent-primary);"><i class="ph ph-info"></i> Confirmar Transferencia</h2>
+            <p style="color: var(--text-secondary); margin: 15px 0; font-size: 1.05rem;">
+                Se ha calculado el peso total de los archivos a transferir.
+            </p>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h3>Tamaño Total</h3>
+                    <p id="eta-size">0 MB</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Tiempo Estimado</h3>
+                    <p id="eta-time" style="color: var(--accent-color);">--:--</p>
+                </div>
+            </div>
+            <div class="eta-actions">
+                <button id="btn-eta-confirm" class="btn-primary"><i class="ph ph-check"></i> Continuar</button>
+                <button id="btn-eta-cancel" class="btn-danger"><i class="ph ph-x"></i> Cancelar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts modulares (orden importa: bridge primero, luego dependencias) -->
+    <script src="js/bridge.js"></script>
+    <script src="js/toast.js"></script>
+    <script src="js/disks.js"></script>
+    <script src="js/profiles.js"></script>
+    <script src="js/tabs.js"></script>
+    <script src="js/modals.js"></script>
+    <script src="js/progress.js"></script>
+    <script src="js/transfer.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

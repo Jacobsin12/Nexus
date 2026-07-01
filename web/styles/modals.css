@@ -1,0 +1,152 @@
+/* ===================================
+   Modals — Dashboard, Installer, ETA
+   =================================== */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
+}
+
+.modal-content {
+    background: var(--panel-bg);
+    backdrop-filter: blur(24px);
+    margin: 10% auto;
+    padding: 30px;
+    border: 1px solid var(--panel-border);
+    width: 60%;
+    border-radius: 20px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+    border-top: 1px solid var(--panel-border-highlight);
+}
+
+.close-btn {
+    color: var(--text-secondary);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    color: var(--text-primary);
+}
+
+/* Stats Grid (Dashboard) */
+.stats-grid {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.stat-card {
+    flex: 1;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.stat-card h3 {
+    margin-bottom: 10px;
+    color: var(--text-secondary);
+}
+
+.stat-card p {
+    font-size: 2em;
+    font-weight: bold;
+    color: var(--accent-color);
+}
+
+/* Logs List */
+.logs-list {
+    list-style: none;
+    padding: 0;
+}
+
+.logs-list li {
+    padding: 10px;
+    border-bottom: 1px solid var(--panel-border);
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Installer Picker Modal */
+.modal-content.modal-sm {
+    max-width: 500px;
+}
+
+.installer-list {
+    list-style: none;
+    padding: 0;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.installer-list-item {
+    padding: 10px 14px;
+    margin-bottom: 8px;
+    background: rgba(56, 189, 248, 0.08);
+    border: 1px solid rgba(56, 189, 248, 0.2);
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.2s;
+}
+
+.installer-list-item:hover {
+    background: rgba(56, 189, 248, 0.2);
+}
+
+.installer-list-item .installer-icon {
+    font-size: 1.2rem;
+    color: #38bdf8;
+}
+
+.installer-list-item .installer-name {
+    flex: 1;
+    color: var(--text-primary);
+    font-size: 0.9rem;
+}
+
+.installer-list-item .installer-arrow {
+    color: var(--text-secondary);
+}
+
+/* ETA Confirm Modal */
+.modal-content.modal-eta {
+    max-width: 450px;
+    text-align: center;
+}
+
+.modal-content.modal-eta .stats-grid {
+    margin: 15px 0;
+}
+
+.modal-content.modal-eta .stat-card {
+    padding: 15px;
+}
+
+.modal-content.modal-eta .stat-card h3 {
+    font-size: 0.85rem;
+}
+
+.eta-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.eta-actions .btn-primary,
+.eta-actions .btn-danger {
+    flex: 1;
+    margin-top: 0;
+}

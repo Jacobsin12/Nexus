@@ -1,0 +1,2435 @@
+{
+    ".": [
+        "3uTools_v9.02.020_Setup_x64.exe",
+        "AutoClicker-3.0.exe",
+        "CERT.ps1",
+        "CitrixWorkspaceApp.exe",
+        "MicrosoftEdgeStandaloneInstallerX64.exe",
+        "TeamViewerQS_x64.exe",
+        "TreeSizeFree.exe",
+        "vlc-3.0.23-win64.exe",
+        "vs_SSMS.exe",
+        "Zscaler-windows-4.5.0.381-installer-x64.msi"
+    ],
+    "AcrobatReader": [
+        "Deploy-Application.exe",
+        "Deploy-Application.ps1"
+    ],
+    "AcrobatReader\\AppDeployToolkit": [
+        "AppDeployToolkitExtensions.ps1",
+        "AppDeployToolkitHelp.ps1",
+        "AppDeployToolkitMain.ps1",
+        "RunHidden.vbs"
+    ],
+    "AcrobatReader\\Files": [
+        "AcroRdrDC2500120432_MUI (2).exe",
+        "AcroRead.msi",
+        "Setup.exe"
+    ],
+    "Citrix-Workspace-25.7.1000.1025-ML-x86-1.0.0\\1.0\\SupportFiles": [
+        "ReceiverCleanupUtility.exe"
+    ],
+    "Citrix-WorkspaceApp-23.11.1.140-ML-x86-1.0.0-SAE\\1.0": [
+        "Deploy-Application.exe",
+        "Deploy-Application.ps1"
+    ],
+    "Citrix-WorkspaceApp-23.11.1.140-ML-x86-1.0.0-SAE\\1.0\\AppDeployToolkit": [
+        "AppDeployToolkitExtensions.ps1",
+        "AppDeployToolkitHelp.ps1",
+        "AppDeployToolkitMain.ps1",
+        "RunHidden.vbs"
+    ],
+    "hwi_840": [
+        "HWiNFO32.exe",
+        "HWiNFO64.exe",
+        "HWiNFO_ARM64.exe"
+    ],
+    "KeyPass": [
+        "Deploy-Application.exe",
+        "Deploy-Application.ps1"
+    ],
+    "KeyPass\\AppDeployToolkit": [
+        "AppDeployToolkitExtensions.ps1",
+        "AppDeployToolkitHelp.ps1",
+        "AppDeployToolkitMain.ps1",
+        "RunHidden.vbs"
+    ],
+    "KeyPass\\Files": [
+        "KeePass-2.58-Setup.exe"
+    ],
+    "MathCad Prime\\MED-60893-CD-300_10-0-1-0": [
+        "setup.exe"
+    ],
+    "MathCad Prime\\MED-60893-CD-300_10-0-1-0\\install\\addon": [
+        "qualityagent_64.msi"
+    ],
+    "MathCad Prime\\MED-60893-CD-300_10-0-1-0\\ptcsh0": [
+        "ndp48-x86-x64-allos-enu.exe",
+        "PrimeWixInstaller_64bit.msi"
+    ],
+    "MathCad Prime - Copy\\MED-60893-CD-300_10-0-1-0": [
+        "setup.exe"
+    ],
+    "MathCad Prime - Copy\\MED-60893-CD-300_10-0-1-0\\install\\addon": [
+        "qualityagent_64.msi"
+    ],
+    "MDFAS 12 Windows 7\\Sources": [
+        "MDFAS 12.msi",
+        "MDFAS120.bat"
+    ],
+    "MDFAS 12 Windows 7\\Sources\\MDFAS\\MDFAS12x": [
+        "MDFAS120_Setup_User - Copie.vbs",
+        "MDFAS120_Setup_User.vbs",
+        "MDFAS120_UnInstall.vbs",
+        "SetNcodeHome.vbs",
+        "ViewNcodeHome.vbs"
+    ],
+    "MDFAS 12 Windows 7\\Sources\\MDFAS\\MDFAS12x\\MDFAS120": [
+        "Change.exe",
+        "InputDirectory.exe",
+        "MDFAS120.vbs",
+        "section_form.exe",
+        "SetNcodeHome.vbs",
+        "UpdateHome.vbs",
+        "ViewNcodeHome.vbs"
+    ],
+    "MDFAS 12 Windows 7\\Sources\\MDFAS\\MDFAS12x\\MDFAS120\\Install-MDFAS120-NHome\\MDFAS120-Custom": [
+        "Change.exe",
+        "InputDirectory.exe",
+        "MDFAS120.vbs",
+        "section_form.exe",
+        "SetNcodeHome.vbs",
+        "UpdateHome.vbs",
+        "ViewNcodeHome.vbs"
+    ],
+    "MDFAS 12 Windows 7\\Sources\\MDFAS\\MDFAS12x\\nCode\\GlyphWorks\\bin": [
+        "appserver.exe",
+        "asamconfig.exe",
+        "asciitranslate.exe",
+        "cleanupprocserver.exe",
+        "cmdnowin.exe",
+        "dataloaderprocserver.exe",
+        "dtlibgui.exe",
+        "dtlibqa.exe",
+        "dtproc.exe",
+        "dump.exe",
+        "dumpmeta.exe",
+        "echoprocserver.exe",
+        "filemonitor.exe",
+        "filestoreprocserver.exe",
+        "flowproc.exe",
+        "flowprocserver.exe",
+        "gazetteerprocserver.exe",
+        "gzip.exe",
+        "HINSTALL.EXE",
+        "iceflow.exe",
+        "kamtranslate.exe",
+        "lmgrd.exe",
+        "lmtools.exe",
+        "lmutil.exe",
+        "logserver.exe",
+        "logviewer.exe",
+        "modf.exe",
+        "nchkid.exe",
+        "NCODE.exe",
+        "ncpref.exe",
+        "nhead.exe",
+        "nhomereg.exe",
+        "ntail.exe",
+        "odbdriver.exe",
+        "odbupgrade.exe",
+        "prefbop.exe",
+        "qacomp.exe",
+        "quickcalculator.exe",
+        "rainflow.exe",
+        "schedulecreate.exe",
+        "sd_html.exe",
+        "sd_word.exe",
+        "seltest.exe",
+        "studio.exe",
+        "studioprocserver.exe",
+        "tar.exe",
+        "TCBServer.exe",
+        "testclient.exe"
+    ],
+    "MDFAS 12 Windows 7\\Sources\\MDFAS\\MDFAS12x\\nCode\\GlyphWorks\\ClientInstall": [
+        "ClientInstall.exe"
+    ],
+    "MDFAS 12 Windows 7\\Sources\\MDFAS\\MDFAS12x\\nCode\\GlyphWorks\\nssys": [
+        "rld_iceflow.bat"
+    ],
+    "Metrologic Group\\X4": [
+        "x4-MT23.lic",
+        "x4.lic"
+    ],
+    "Metrologic Group\\X4\\Historico de licencias": [
+        "x4 - 28-03-2023.lic",
+        "x4 - 7-06-2023.lic",
+        "x4 13-06-2023.lic",
+        "x4--Modulo MT23.lic",
+        "x4--MT3 4-11-2022.lic",
+        "x4-8-04-2023.lic",
+        "x4-Modulo MT23.lic"
+    ],
+    "Metrologic Group\\X4\\Historico de licencias\\Licencias y Setings 24-05-2024": [
+        "x4.lic"
+    ],
+    "Metrologic Group\\X4\\Historico de licencias\\Licensias y Setings 6-02-2024": [
+        "x4 - Antes Ajuste_JUN_2023.lic",
+        "x4 - copia 17-10-2023.lic",
+        "x4 - copia.lic"
+    ],
+    "Metrologic Group\\X4\\Licencias old": [
+        "x4.lic"
+    ],
+    "Metrologic Group\\X4\\ProcDump": [
+        "MgCoreDumpDepends.exe",
+        "procdump.exe",
+        "procdump64.exe"
+    ],
+    "Metrologic Group\\X4-1": [
+        "x4.lic"
+    ],
+    "Metrologic Group\\X4-1\\Historico de licencias": [
+        "x4 - 28-03-2023.lic",
+        "x4 - 7-06-2023.lic",
+        "x4 13-06-2023.lic",
+        "x4--Modulo MT23.lic",
+        "x4--MT3 4-11-2022.lic",
+        "x4-8-04-2023.lic",
+        "x4-Modulo MT23.lic"
+    ],
+    "Metrologic Group\\X4-1\\Historico de licencias\\Licencias y Setings 24-05-2024": [
+        "x4.lic"
+    ],
+    "Metrologic Group\\X4-1\\Historico de licencias\\Licensias y Setings 6-02-2024": [
+        "x4 - Antes Ajuste_JUN_2023.lic",
+        "x4 - copia 17-10-2023.lic",
+        "x4 - copia.lic"
+    ],
+    "Metrologic Group\\X4-1\\Licencias old": [
+        "x4.lic"
+    ],
+    "Metrologic Group\\X4-1\\ProcDump": [
+        "MgCoreDumpDepends.exe",
+        "procdump.exe",
+        "procdump64.exe"
+    ],
+    "Metrologic Group\\X4Office-1\\X4Office": [
+        "mgWebSupport.exe",
+        "SecurityX4.exe"
+    ],
+    "Metrologic Group\\X4Office-1\\X4Office\\REV 01": [
+        "XgOfficeSetup.msi"
+    ],
+    "MITES": [
+        "WinGenespecVL.exe",
+        "WinMites-2-1.exe"
+    ],
+    "MITES\\bat en M\\OLD": [
+        "AUTOEXEC.BAT"
+    ],
+    "MITES\\bat en M\\Version local": [
+        "AUTOEXEC.BAT"
+    ],
+    "MITES\\FORTRAN\\BD\\MATERIAUX": [
+        "AUTOEXEC.BAT"
+    ],
+    "MITES\\FORTRAN\\BIN": [
+        "A300MAIN.EXE",
+        "A310MAIN.EXE",
+        "ANC2.EXE",
+        "ANC21.EXE",
+        "ATTACHES.EXE",
+        "AUTOEXEC.BAT",
+        "CALACN.EXE",
+        "COMDIR.EXE",
+        "CONTLIN.EXE",
+        "CRDYNMP018.EXE",
+        "DEPOU_R45.EXE",
+        "DYNMP002.EXE",
+        "DYNMP003.EXE",
+        "DYNMP004.EXE",
+        "DYNMP005.EXE",
+        "DYNMP006.EXE",
+        "DYNMP007.EXE",
+        "DYNMP007_BHP.EXE",
+        "DYNMP008.EXE",
+        "DYNMP009.EXE",
+        "DYNMP010.EXE",
+        "DYNMP011.EXE",
+        "DYNMP012.EXE",
+        "DYNMP013.EXE",
+        "DYNMP014.EXE",
+        "DYNMP014_BHP.EXE",
+        "DYNMP015.EXE",
+        "DYNMP017.EXE",
+        "DYNMP018.EXE",
+        "DYNMP021.EXE",
+        "DYNMP022.EXE",
+        "DYNMP025.EXE",
+        "DYNMP026.EXE",
+        "DYNMP028.EXE",
+        "DYNMP031.EXE",
+        "DYNMP036.EXE",
+        "DYNMP118.EXE",
+        "DYNMPSTA.EXE",
+        "FATSPEC.EXE",
+        "FC310.EXE",
+        "FCBR.EXE",
+        "FCDT.EXE",
+        "FCTDT.EXE",
+        "FCTDT1.EXE",
+        "FCVERIN.EXE",
+        "FILETAGE.EXE",
+        "FL2CDT.EXE",
+        "FL2CDT1.EXE",
+        "FreeCompil.exe",
+        "GNU2FREE.EXE",
+        "IMP.EXE",
+        "IMP2.EXE",
+        "LODSPEC.EXE",
+        "MITES-2-1.EXE",
+        "MITSPEC.EXE",
+        "PS.EXE",
+        "RAINFLOW-2-2.EXE",
+        "RAINURE.EXE",
+        "SPECTRE.EXE",
+        "SPEQUIV.EXE",
+        "TRACE.exe",
+        "VERIN.EXE",
+        "VERIN1.EXE",
+        "VIRAGE.EXE",
+        "WinA300Main.exe",
+        "WinA310Main.exe",
+        "WinAttaches.exe",
+        "WinCalacn.exe",
+        "WinComdir.exe",
+        "WinContlin.exe",
+        "WinDepou_R45.exe",
+        "WinDynmp.exe",
+        "WinEquilibrus.exe",
+        "WinFatspec.exe",
+        "WinFiletage.exe",
+        "WinFlambage.exe",
+        "WinFormeca.exe",
+        "WinGenerdac.exe",
+        "WinGenespec-1-2.exe",
+        "WinGenespecVL.exe",
+        "WinGnu2Free.exe",
+        "WinImp.exe",
+        "WinLFMSpec-1-1.exe",
+        "WinLFMSpecVL.exe",
+        "WinLodSpec.exe",
+        "WinMites-2-1.exe",
+        "WinMitspec.exe",
+        "WinPS.exe",
+        "WinRainflow-2-2.exe",
+        "WinRainflowVL.exe",
+        "WinSpectre.exe",
+        "WinSpequiv.exe",
+        "WinVirage.exe",
+        "WinWohler.exe",
+        "WOHLER.EXE"
+    ],
+    "MITES\\FORTRAN\\BIN\\OLD": [
+        "MITES.EXE",
+        "RAINFLOW.EXE",
+        "WinGenespec.exe",
+        "WinGenespecLight.exe",
+        "WinLFMSpec.exe",
+        "WinMITES.exe",
+        "WinRainflow.exe"
+    ],
+    "MITES\\UltraEdit": [
+        "UEDIFF.EXE",
+        "UEDIT32.EXE",
+        "UEDOS32.EXE",
+        "UNINSTAL.EXE"
+    ],
+    "PDFCreator": [
+        "Deploy-Application.exe",
+        "Deploy-Application.ps1",
+        "ErrorReport.exe",
+        "PDFCreator-cli.exe",
+        "PDFCreator.exe",
+        "RepairFolderPermissions.exe",
+        "SetupHelper.exe"
+    ],
+    "PDFCreator\\AppDeployToolkit": [
+        "AppDeployToolkitExtensions.ps1",
+        "AppDeployToolkitHelp.ps1",
+        "AppDeployToolkitMain.ps1"
+    ],
+    "PDFCreator\\Com Scripts\\VBScript": [
+        "JpegSettings.vbs",
+        "MergedMultipleFiles2Tif.vbs",
+        "TestPage2PDF.vbs"
+    ],
+    "PDFCreator\\Files": [
+        "PDFCreator.exe"
+    ],
+    "PDFCreator\\Ghostscript\\bin": [
+        "gswin32c.exe"
+    ],
+    "PDFCreator\\Ghostscript\\lib": [
+        "eps2eps.bat",
+        "eps2eps.cmd",
+        "gsbj.bat",
+        "gsdj.bat",
+        "gsdj500.bat",
+        "gslj.bat",
+        "gslp.bat",
+        "gsnd.bat",
+        "gsndt.bat",
+        "gssetgs.bat",
+        "gssetgs32.bat",
+        "gssetgs64.bat",
+        "gst.bat",
+        "gstt.bat",
+        "lp386.bat",
+        "lp386r2.bat",
+        "lpgs.bat",
+        "lpr2.bat",
+        "pdf2dsc.bat",
+        "pdf2ps.bat",
+        "pdf2ps.cmd",
+        "pf2afm.bat",
+        "pf2afm.cmd",
+        "pfbtopfa.bat",
+        "ps2ascii.bat",
+        "ps2ascii.cmd",
+        "ps2epsi.bat",
+        "ps2epsi.cmd",
+        "ps2pdf.bat",
+        "ps2pdf.cmd",
+        "ps2pdf12.bat",
+        "ps2pdf12.cmd",
+        "ps2pdf13.bat",
+        "ps2pdf13.cmd",
+        "ps2pdf14.bat",
+        "ps2pdf14.cmd",
+        "ps2pdfxx.bat",
+        "ps2ps.bat",
+        "ps2ps.cmd",
+        "ps2ps2.bat",
+        "ps2ps2.cmd",
+        "wmakebat.bat"
+    ],
+    "Project 2021": [
+        "Invoke-AppDeployToolkit.exe",
+        "Invoke-AppDeployToolkit.ps1"
+    ],
+    "Project 2021\\Files": [
+        "setup.exe"
+    ],
+    "Project 2021\\PSAppDeployToolkit\\bin\\AMD64\\handle": [
+        "handle.exe"
+    ],
+    "Project 2021\\PSAppDeployToolkit\\bin\\ARM64\\handle": [
+        "handle.exe"
+    ],
+    "Project 2021\\PSAppDeployToolkit\\bin\\i386\\handle": [
+        "handle.exe"
+    ],
+    "Project 2021\\PSAppDeployToolkit\\Frontend\\v3": [
+        "Deploy-Application.exe"
+    ],
+    "Project 2021\\PSAppDeployToolkit\\Frontend\\v3\\AppDeployToolkit": [
+        "AppDeployToolkitExtensions.ps1",
+        "AppDeployToolkitMain.ps1"
+    ],
+    "Project 2021\\PSAppDeployToolkit\\Frontend\\v4": [
+        "Invoke-AppDeployToolkit.exe",
+        "Invoke-AppDeployToolkit.ps1"
+    ],
+    "Project 2021\\PSAppDeployToolkit\\Templates": [
+        "New-ADTFunction.ps1"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Catia\\R21": [
+        "Deploy-Application.exe",
+        "Deploy-Application.ps1"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Catia\\R21\\AppDeployToolkit": [
+        "AppDeployToolkitExtensions.ps1",
+        "AppDeployToolkitHelp.ps1",
+        "AppDeployToolkitMain.ps1"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Catia\\R21\\Files\\1": [
+        "DSLicTarget.exe",
+        "i4target.exe",
+        "i4tgtid.exe",
+        "lumdevdi.exe",
+        "Setup.bat",
+        "setup.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Catia\\R21\\Files\\1\\0data\\intel_a": [
+        "DSYInsMediaCheck.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Catia\\R21\\Files\\1\\VBA": [
+        "Install.bat",
+        "vba6.msi",
+        "VBAOF11.MSI"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Catia\\R21\\Files\\1\\VBA\\1033": [
+        "VBAOF11I.MSI"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Catia\\R21\\Files\\1\\VBA\\CC": [
+        "ccdist.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Catia\\R21\\Files\\1\\VBA\\msi": [
+        "instmsi.exe",
+        "instmsiw.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Catia\\R21\\Files\\1\\VBA\\pFiles\\Common\\MSShared\\Vba\\vba6": [
+        "link.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Catia\\R21\\Files\\1\\VBA\\pFiles\\MSOffice\\Office": [
+        "makecert.exe",
+        "selfcert.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Catia\\R21\\Files\\1\\VBA\\Sp\\Dcom": [
+        "dcom95.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Catia\\R21\\Files\\1\\WIN64": [
+        "CATCheckVC9Level.exe",
+        "CXINST.exe",
+        "CXINSTB.exe",
+        "CXINSTSAT.exe",
+        "CXINSTSATB.exe",
+        "DSYCheckVC8.exe",
+        "InstallDSSoftwarePrerequisites_x86_x64.msi",
+        "InstallDSSoftwareVC9Prerequisites_x86_x64.msi",
+        "StartB.exe",
+        "StartSAT.exe",
+        "StartSATB.exe",
+        "UNINSTALL.exe",
+        "VBAIDEinst.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Catia\\R21\\Files\\2": [
+        "Setup.bat"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Catia\\R21\\Files\\2\\0data\\intel_a": [
+        "DSYInsMediaCheck.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Catia\\R21\\Files\\2\\WIN64": [
+        "CATCheckVC9Level.exe",
+        "CXINSTSAT.exe",
+        "CXINSTSATB.exe",
+        "DSYCheckVC8.exe",
+        "InstallDSSoftwarePrerequisites_x86_x64.msi",
+        "InstallDSSoftwareVC9Prerequisites_x86_x64.msi",
+        "SetupSPK.exe",
+        "SetupSPKB.exe",
+        "StartSAT.exe",
+        "StartSATB.exe",
+        "StartSPK.exe",
+        "StartSPKB.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Catia\\r27": [
+        "Deploy-Application.exe",
+        "Deploy-Application.ps1"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Catia\\r27\\AppDeployToolkit": [
+        "AppDeployToolkitExtensions.ps1",
+        "AppDeployToolkitHelp.ps1",
+        "AppDeployToolkitMain.ps1"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Catia\\r27\\Files\\1": [
+        "DSLicTarget.exe",
+        "setup.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Catia\\r27\\Files\\1\\0data\\intel_a": [
+        "DSYInsMediaCheck.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Catia\\r27\\Files\\1\\VBA": [
+        "DSVBA71Installer.exe",
+        "Vba71_x64.msi",
+        "Vba71_x64_1033.MSI",
+        "Vba71_x86.msi",
+        "Vba71_x86_1033.MSI"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Catia\\r27\\Files\\1\\WIN64": [
+        "CXINST.exe",
+        "CXINSTB.exe",
+        "CXINSTSAT.exe",
+        "CXINSTSATB.exe",
+        "DSYAdmVC10preq.exe",
+        "DSYAdmVC11preq.exe",
+        "DSYCheckVC8.exe",
+        "DSYCheckVC9.exe",
+        "InstallDSSoftwarePrerequisites_x86_x64.msi",
+        "InstallDSSoftwareVC10Prerequisites_x86_x64.msi",
+        "InstallDSSoftwareVC11Prerequisites_x86_x64.msi",
+        "InstallDSSoftwareVC9Prerequisites_x86_x64.msi",
+        "StartB.exe",
+        "StartSAT.exe",
+        "StartSATB.exe",
+        "UNINSTALL.exe",
+        "VBAIDEinst.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Catia\\r27\\Files\\2\\0data\\intel_a": [
+        "DSYInsMediaCheck.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Catia\\r27\\Files\\2\\WIN64": [
+        "CXINSTSAT.exe",
+        "CXINSTSATB.exe",
+        "DSYAdmVC11preq.exe",
+        "DSYCheckVC8.exe",
+        "DSYCheckVC9.exe",
+        "idlCDGDataM.exe",
+        "InstallDSSoftwarePrerequisites_x86_x64.msi",
+        "InstallDSSoftwareVC11Prerequisites_x86_x64.msi",
+        "InstallDSSoftwareVC9Prerequisites_x86_x64.msi",
+        "jCDGDataM.exe",
+        "mkCDGDataM.exe",
+        "SetupSPK.exe",
+        "SetupSPKB.exe",
+        "StartSAT.exe",
+        "StartSATB.exe",
+        "StartSPK.exe",
+        "StartSPKB.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Catia\\R28": [
+        "Deploy-Application.exe",
+        "Deploy-Application.ps1"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Catia\\R28\\AppDeployToolkit": [
+        "AppDeployToolkitExtensions.ps1",
+        "AppDeployToolkitHelp.ps1",
+        "AppDeployToolkitMain.ps1"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Catia\\R28\\Files\\CATIA_P3.win_b64\\1": [
+        "DSLicTarget.exe",
+        "setup.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Catia\\R28\\Files\\CATIA_P3.win_b64\\1\\0data\\intel_a": [
+        "DSYInsMediaCheck.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Catia\\R28\\Files\\CATIA_P3.win_b64\\1\\VBA": [
+        "DSVBA71Installer.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Catia\\R28\\Files\\CATIA_P3.win_b64\\1\\WIN64": [
+        "CXINST.exe",
+        "CXINSTB.exe",
+        "CXINSTSAT.exe",
+        "CXINSTSATB.exe",
+        "DSYAdmVC11preq.exe",
+        "DSYCheckVC8.exe",
+        "DSYCheckVC9.exe",
+        "InstallDSSoftwarePrerequisites_x86_x64.msi",
+        "InstallDSSoftwareVC11Prerequisites_x86_x64.msi",
+        "InstallDSSoftwareVC9Prerequisites_x86_x64.msi",
+        "StartB.exe",
+        "StartSAT.exe",
+        "StartSATB.exe",
+        "UNINSTALL.exe",
+        "vc_redist.x64.exe",
+        "vc_redist.x86.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Catia\\R28\\Files\\SPK.win_b64\\1\\0data\\intel_a": [
+        "DSYInsMediaCheck.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Catia\\R28\\Files\\SPK.win_b64\\1\\WIN64": [
+        "CXINSTSAT.exe",
+        "CXINSTSATB.exe",
+        "DSYAdmVC11preq.exe",
+        "DSYCheckVC8.exe",
+        "DSYCheckVC9.exe",
+        "idlCDGDataM.exe",
+        "InstallDSSoftwarePrerequisites_x86_x64.msi",
+        "InstallDSSoftwareVC11Prerequisites_x86_x64.msi",
+        "InstallDSSoftwareVC9Prerequisites_x86_x64.msi",
+        "jCDGDataM.exe",
+        "mkCDGDataM.exe",
+        "SetupSPK.exe",
+        "SetupSPKB.exe",
+        "StartSAT.exe",
+        "StartSATB.exe",
+        "StartSPK.exe",
+        "StartSPKB.exe",
+        "vc_redist.x64.exe",
+        "vc_redist.x86.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Catia\\R28_": [
+        "Deploy-Application.exe",
+        "Deploy-Application.ps1"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Catia\\R28_\\AppDeployToolkit": [
+        "AppDeployToolkitExtensions.ps1",
+        "AppDeployToolkitHelp.ps1",
+        "AppDeployToolkitMain.ps1"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Catia\\R28_\\Files\\CATIA_P3.win_b64\\1": [
+        "DSLicTarget.exe",
+        "setup.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Catia\\R28_\\Files\\CATIA_P3.win_b64\\1\\0data\\intel_a": [
+        "DSYInsMediaCheck.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Catia\\R28_\\Files\\CATIA_P3.win_b64\\1\\VBA": [
+        "DSVBA71Installer.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Catia\\R28_\\Files\\CATIA_P3.win_b64\\1\\WIN64": [
+        "CXINST.exe",
+        "CXINSTB.exe",
+        "CXINSTSAT.exe",
+        "CXINSTSATB.exe",
+        "DSYAdmVC11preq.exe",
+        "DSYCheckVC8.exe",
+        "DSYCheckVC9.exe",
+        "InstallDSSoftwarePrerequisites_x86_x64.msi",
+        "InstallDSSoftwareVC11Prerequisites_x86_x64.msi",
+        "InstallDSSoftwareVC9Prerequisites_x86_x64.msi",
+        "StartB.exe",
+        "StartSAT.exe",
+        "StartSATB.exe",
+        "UNINSTALL.exe",
+        "vc_redist.x64.exe",
+        "vc_redist.x86.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Catia\\R28_\\Files\\SPK.win_b64\\1\\0data\\intel_a": [
+        "DSYInsMediaCheck.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Catia\\R28_\\Files\\SPK.win_b64\\1\\WIN64": [
+        "CXINSTSAT.exe",
+        "CXINSTSATB.exe",
+        "DSYAdmVC11preq.exe",
+        "DSYCheckVC8.exe",
+        "DSYCheckVC9.exe",
+        "idlCDGDataM.exe",
+        "InstallDSSoftwarePrerequisites_x86_x64.msi",
+        "InstallDSSoftwareVC11Prerequisites_x86_x64.msi",
+        "InstallDSSoftwareVC9Prerequisites_x86_x64.msi",
+        "jCDGDataM.exe",
+        "mkCDGDataM.exe",
+        "SetupSPK.exe",
+        "SetupSPKB.exe",
+        "StartSAT.exe",
+        "StartSATB.exe",
+        "StartSPK.exe",
+        "StartSPKB.exe",
+        "vc_redist.x64.exe",
+        "vc_redist.x86.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Catia\\R31": [
+        "Deploy-Application.exe",
+        "Deploy-Application.ps1"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Catia\\R31\\AppDeployToolkit": [
+        "AppDeployToolkitExtensions.ps1",
+        "AppDeployToolkitHelp.ps1",
+        "AppDeployToolkitMain.ps1"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Catia\\R31\\Files\\1": [
+        "DSLicTarget.exe",
+        "setup.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Catia\\R31\\Files\\1\\0data\\intel_a": [
+        "DSYInsMediaCheck.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Catia\\R31\\Files\\1\\VBA": [
+        "DSVBA71Installer.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Catia\\R31\\Files\\1\\WIN64": [
+        "CXINST.exe",
+        "CXINSTB.exe",
+        "CXINSTSAT.exe",
+        "CXINSTSATB.exe",
+        "DSYAdmVC11preq.exe",
+        "InstallDSSoftwareVC11Prerequisites_x86_x64.msi",
+        "StartB.exe",
+        "StartSAT.exe",
+        "StartSATB.exe",
+        "UNINSTALL.exe",
+        "vc_redist.x64.exe",
+        "vc_redist.x86.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Catia\\R31\\Files\\2\\0data\\intel_a": [
+        "DSYInsMediaCheck.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Catia\\R31\\Files\\2\\WIN64": [
+        "CXINSTSAT.exe",
+        "CXINSTSATB.exe",
+        "DSYAdmVC11preq.exe",
+        "idlCDGDataM.exe",
+        "InstallDSSoftwareVC11Prerequisites_x86_x64.msi",
+        "jCDGDataM.exe",
+        "mkCDGDataM.exe",
+        "SetupSPK.exe",
+        "SetupSPKB.exe",
+        "StartSAT.exe",
+        "StartSATB.exe",
+        "StartSPK.exe",
+        "StartSPKB.exe",
+        "vc_redist.x64.exe",
+        "vc_redist.x86.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Catia\\R31\\Files\\3\\WIN64": [
+        "DSYAdmVC11preq.exe",
+        "InstallDSSoftwareVC11Prerequisites_x86_x64.msi",
+        "SetupHFX.exe",
+        "SetupHFXB.exe",
+        "StartHFX.exe",
+        "StartHFXB.exe",
+        "vc_redist.x64.exe",
+        "vc_redist.x86.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Citrix Workspace": [
+        "Deploy-Application.exe",
+        "Deploy-Application.ps1"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Citrix Workspace\\AppDeployToolkit": [
+        "AppDeployToolkitExtensions.ps1",
+        "AppDeployToolkitHelp.ps1",
+        "AppDeployToolkitMain.ps1"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Citrix Workspace\\Files": [
+        "CitrixWorkspaceApp_2203_CU2.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Citrix Workspace\\Files\\Prerequisites": [
+        "MicrosoftEdgeWebView2RuntimeInstallerX86.exe",
+        "ndp48-x86-x64-allos-enu.exe",
+        "VC_redist.x64.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing": [
+        "grindstone3-setup.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\Barco-ClickShare-4.30.2-b2-ML-x64-1.0.0": [
+        "Deploy-Application.exe",
+        "Deploy-Application.ps1"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\Barco-ClickShare-4.30.2-b2-ML-x64-1.0.0\\AppDeployToolkit": [
+        "AppDeployToolkitExtensions.ps1",
+        "AppDeployToolkitHelp.ps1",
+        "AppDeployToolkitMain.ps1"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\Barco-ClickShare-4.30.2-b2-ML-x64-1.0.0\\Files": [
+        "ClickShare_Setup.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\MDFAS 12 Windows 7\\Sources": [
+        "MDFAS 12.msi",
+        "MDFAS120.bat"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\MDFAS 12 Windows 7\\Sources\\MDFAS\\MDFAS12x": [
+        "MDFAS120_Setup_User - Copie.vbs",
+        "MDFAS120_Setup_User.vbs",
+        "MDFAS120_UnInstall.vbs",
+        "SetNcodeHome.vbs",
+        "ViewNcodeHome.vbs"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\MDFAS 12 Windows 7\\Sources\\MDFAS\\MDFAS12x\\MDFAS120": [
+        "Change.exe",
+        "InputDirectory.exe",
+        "MDFAS120.vbs",
+        "section_form.exe",
+        "SetNcodeHome.vbs",
+        "UpdateHome.vbs",
+        "ViewNcodeHome.vbs"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\MDFAS 12 Windows 7\\Sources\\MDFAS\\MDFAS12x\\MDFAS120\\Install-MDFAS120-NHome\\MDFAS120-Custom": [
+        "Change.exe",
+        "InputDirectory.exe",
+        "MDFAS120.vbs",
+        "section_form.exe",
+        "SetNcodeHome.vbs",
+        "UpdateHome.vbs",
+        "ViewNcodeHome.vbs"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\MDFAS 12 Windows 7\\Sources\\MDFAS\\MDFAS12x\\nCode\\GlyphWorks\\bin": [
+        "appserver.exe",
+        "asamconfig.exe",
+        "asciitranslate.exe",
+        "cleanupprocserver.exe",
+        "cmdnowin.exe",
+        "dataloaderprocserver.exe",
+        "dtlibgui.exe",
+        "dtlibqa.exe",
+        "dtproc.exe",
+        "dump.exe",
+        "dumpmeta.exe",
+        "echoprocserver.exe",
+        "filemonitor.exe",
+        "filestoreprocserver.exe",
+        "flowproc.exe",
+        "flowprocserver.exe",
+        "gazetteerprocserver.exe",
+        "gzip.exe",
+        "HINSTALL.EXE",
+        "iceflow.exe",
+        "kamtranslate.exe",
+        "lmgrd.exe",
+        "lmtools.exe",
+        "lmutil.exe",
+        "logserver.exe",
+        "logviewer.exe",
+        "modf.exe",
+        "nchkid.exe",
+        "NCODE.exe",
+        "ncpref.exe",
+        "nhead.exe",
+        "nhomereg.exe",
+        "ntail.exe",
+        "odbdriver.exe",
+        "odbupgrade.exe",
+        "prefbop.exe",
+        "qacomp.exe",
+        "quickcalculator.exe",
+        "rainflow.exe",
+        "schedulecreate.exe",
+        "sd_html.exe",
+        "sd_word.exe",
+        "seltest.exe",
+        "studio.exe",
+        "studioprocserver.exe",
+        "tar.exe",
+        "TCBServer.exe",
+        "testclient.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\MDFAS 12 Windows 7\\Sources\\MDFAS\\MDFAS12x\\nCode\\GlyphWorks\\ClientInstall": [
+        "ClientInstall.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\MDFAS 12 Windows 7\\Sources\\MDFAS\\MDFAS12x\\nCode\\GlyphWorks\\nssys": [
+        "rld_iceflow.bat"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\MDFAS 12 Windows 7\\Sources\\MDFAS\\MDFAS12x\\nSoft_2005\\bin": [
+        "accf.exe",
+        "ada.exe",
+        "andefine.exe",
+        "andetect.exe",
+        "anmuledt.exe",
+        "art.exe",
+        "asd.exe",
+        "atd.exe",
+        "bfl.exe",
+        "bin2asc.exe",
+        "cambel.exe",
+        "cda.exe",
+        "clf.exe",
+        "cmdnowin.exe",
+        "coe.exe",
+        "confil.exe",
+        "contor.exe",
+        "copy_fe7_isr1.bat",
+        "crl.exe",
+        "cuscor.exe",
+        "cyc.exe",
+        "cyl.exe",
+        "dacrem.exe",
+        "dacwav.exe",
+        "damedt.exe",
+        "damgat.exe",
+        "datagate.exe",
+        "datagatedemux.exe",
+        "dta.exe",
+        "dump.exe",
+        "edarem.exe",
+        "enm.exe",
+        "equswt.exe",
+        "fatde.exe",
+        "fatduty.exe",
+        "fatfe.exe",
+        "fatmds.exe",
+        "fatmon.exe",
+        "fatres.exe",
+        "fcd.exe",
+        "fcg.exe",
+        "fe2fes.exe",
+        "fe2txt.exe",
+        "fef2fer.exe",
+        "fef2frs.exe",
+        "fef2hyp.exe",
+        "fef2odb.exe",
+        "fef2unv.exe",
+        "fefcom.exe",
+        "FEFNAE.EXE",
+        "ferupgrade.exe",
+        "ferutil.exe",
+        "fescom.exe",
+        "feshed.exe",
+        "fff.exe",
+        "filmnp.exe",
+        "flf.exe",
+        "fndver.exe",
+        "fppcom.exe",
+        "fppdump.exe",
+        "fpphcopy.exe",
+        "fra.exe",
+        "frm.exe",
+        "ged.exe",
+        "hed.exe",
+        "HINSTALL.EXE",
+        "Icons.exe",
+        "itgdft.exe",
+        "jpd.exe",
+        "jtncl.exe",
+        "ksn.exe",
+        "ktan.exe",
+        "lcfana.exe",
+        "lcfman.exe",
+        "len.exe",
+        "lmgrd.exe",
+        "lmtools.exe",
+        "lmutil.exe",
+        "loadtemp.exe",
+        "lss.exe",
+        "lvl.exe",
+        "mdm.exe",
+        "megalink.exe",
+        "mfd.exe",
+        "mfm.exe",
+        "mkv.exe",
+        "mlf.exe",
+        "modf.exe",
+        "muledt.exe",
+        "nchkid.exe",
+        "ncl.exe",
+        "NCODE.exe",
+        "ncpens.exe",
+        "ncpref.exe",
+        "ncreg.exe",
+        "nhomereg.exe",
+        "npathreg.exe",
+        "nsoft2005.exe",
+        "nsoft2005_ie4.exe",
+        "nsoft2005_no_ie4.exe",
+        "null.exe",
+        "oct.exe",
+        "odbdriver.exe",
+        "odbupgrade.exe",
+        "order.exe",
+        "p3d.exe",
+        "pkc.exe",
+        "pod.exe",
+        "prefbop.exe",
+        "pretst.exe",
+        "puldis.exe",
+        "pulspd.exe",
+        "pvx.exe",
+        "pvxmul.exe",
+        "qacomp.exe",
+        "qld.exe",
+        "qstats.exe",
+        "rainflow.exe",
+        "regen.exe",
+        "remdac.exe",
+        "remez.exe",
+        "rmn.exe",
+        "rqp.exe",
+        "rstats.exe",
+        "runqa.exe",
+        "s7trans.exe",
+        "saa.exe",
+        "sdrc2fes.exe",
+        "sd_html.exe",
+        "sd_word.exe",
+        "search.exe",
+        "seg.exe",
+        "seltest.exe",
+        "signat.exe",
+        "simmax.exe",
+        "slf.exe",
+        "spk.exe",
+        "sra.exe",
+        "ssa.exe",
+        "sta.exe",
+        "studio.exe",
+        "tablst.exe",
+        "tbe.exe",
+        "tcd.exe",
+        "timdis.exe",
+        "tnsana.exe",
+        "tpd.exe",
+        "translate.exe",
+        "uff.exe",
+        "waves.exe",
+        "weibul.exe",
+        "wflcre.exe",
+        "wnplot.exe",
+        "xya.exe",
+        "zmod.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\MDFAS 12 Windows 7\\Sources\\Patch\\MDFAS120_Patch_20110916\\MDFAS120_Patch_20110916": [
+        "fe2fes.exe",
+        "_RegisterFer_to_Studio.bat",
+        "_SetupSeattle.bat",
+        "_SetupToronto.bat",
+        "__InstallPatch.bat"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\MDFAS 12 Windows 7\\Sources\\Sources Altiris\\MDFAS12": [
+        "fe2fes.exe",
+        "install_MDFAS_120.bat",
+        "install_MDFAS_120_patch.bat",
+        "MDFAS 12.msi",
+        "MDFAS120.bat",
+        "_RegisterFer_to_Studio.bat",
+        "_SetupSeattle.bat",
+        "_SetupToronto.bat",
+        "__InstallPatch.bat"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\MDFAS 12 Windows 7\\Sources\\Sources Altiris\\MDFAS12\\MDFAS\\MDFAS12x": [
+        "MDFAS120_Setup_User - Copie.vbs",
+        "MDFAS120_Setup_User.vbs",
+        "MDFAS120_UnInstall.vbs",
+        "SetNcodeHome.vbs",
+        "ViewNcodeHome.vbs"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\MDFAS 12 Windows 7\\Sources\\Sources Altiris\\MDFAS12\\MDFAS\\MDFAS12x\\MDFAS120": [
+        "Change.exe",
+        "InputDirectory.exe",
+        "MDFAS120.vbs",
+        "section_form.exe",
+        "SetNcodeHome.vbs",
+        "UpdateHome.vbs",
+        "ViewNcodeHome.vbs"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\MDFAS 12 Windows 7\\Sources\\Sources Altiris\\MDFAS12\\MDFAS\\MDFAS12x\\MDFAS120\\Install-MDFAS120-NHome\\MDFAS120-Custom": [
+        "Change.exe",
+        "InputDirectory.exe",
+        "MDFAS120.vbs",
+        "section_form.exe",
+        "SetNcodeHome.vbs",
+        "UpdateHome.vbs",
+        "ViewNcodeHome.vbs"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\MDFAS 12 Windows 7\\Sources\\Sources Altiris\\MDFAS12\\MDFAS\\MDFAS12x\\nCode\\GlyphWorks\\bin": [
+        "appserver.exe",
+        "asamconfig.exe",
+        "asciitranslate.exe",
+        "cleanupprocserver.exe",
+        "cmdnowin.exe",
+        "dataloaderprocserver.exe",
+        "dtlibgui.exe",
+        "dtlibqa.exe",
+        "dtproc.exe",
+        "dump.exe",
+        "dumpmeta.exe",
+        "echoprocserver.exe",
+        "filemonitor.exe",
+        "filestoreprocserver.exe",
+        "flowproc.exe",
+        "flowprocserver.exe",
+        "gazetteerprocserver.exe",
+        "gzip.exe",
+        "HINSTALL.EXE",
+        "iceflow.exe",
+        "kamtranslate.exe",
+        "lmgrd.exe",
+        "lmtools.exe",
+        "lmutil.exe",
+        "logserver.exe",
+        "logviewer.exe",
+        "modf.exe",
+        "nchkid.exe",
+        "NCODE.exe",
+        "ncpref.exe",
+        "nhead.exe",
+        "nhomereg.exe",
+        "ntail.exe",
+        "odbdriver.exe",
+        "odbupgrade.exe",
+        "prefbop.exe",
+        "qacomp.exe",
+        "quickcalculator.exe",
+        "rainflow.exe",
+        "schedulecreate.exe",
+        "sd_html.exe",
+        "sd_word.exe",
+        "seltest.exe",
+        "studio.exe",
+        "studioprocserver.exe",
+        "tar.exe",
+        "TCBServer.exe",
+        "testclient.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\MDFAS 12 Windows 7\\Sources\\Sources Altiris\\MDFAS12\\MDFAS\\MDFAS12x\\nCode\\GlyphWorks\\ClientInstall": [
+        "ClientInstall.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\MDFAS 12 Windows 7\\Sources\\Sources Altiris\\MDFAS12\\MDFAS\\MDFAS12x\\nCode\\GlyphWorks\\nssys": [
+        "rld_iceflow.bat"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\MDFAS 12 Windows 7\\Sources\\Sources Altiris\\MDFAS12\\MDFAS\\MDFAS12x\\nSoft_2005\\bin": [
+        "accf.exe",
+        "ada.exe",
+        "andefine.exe",
+        "andetect.exe",
+        "anmuledt.exe",
+        "art.exe",
+        "asd.exe",
+        "atd.exe",
+        "bfl.exe",
+        "bin2asc.exe",
+        "cambel.exe",
+        "cda.exe",
+        "clf.exe",
+        "cmdnowin.exe",
+        "coe.exe",
+        "confil.exe",
+        "contor.exe",
+        "copy_fe7_isr1.bat",
+        "crl.exe",
+        "cuscor.exe",
+        "cyc.exe",
+        "cyl.exe",
+        "dacrem.exe",
+        "dacwav.exe",
+        "damedt.exe",
+        "damgat.exe",
+        "datagate.exe",
+        "datagatedemux.exe",
+        "dta.exe",
+        "dump.exe",
+        "edarem.exe",
+        "enm.exe",
+        "equswt.exe",
+        "fatde.exe",
+        "fatduty.exe",
+        "fatfe.exe",
+        "fatmds.exe",
+        "fatmon.exe",
+        "fatres.exe",
+        "fcd.exe",
+        "fcg.exe",
+        "fe2fes.exe",
+        "fe2txt.exe",
+        "fef2fer.exe",
+        "fef2frs.exe",
+        "fef2hyp.exe",
+        "fef2odb.exe",
+        "fef2unv.exe",
+        "fefcom.exe",
+        "FEFNAE.EXE",
+        "ferupgrade.exe",
+        "ferutil.exe",
+        "fescom.exe",
+        "feshed.exe",
+        "fff.exe",
+        "filmnp.exe",
+        "flf.exe",
+        "fndver.exe",
+        "fppcom.exe",
+        "fppdump.exe",
+        "fpphcopy.exe",
+        "fra.exe",
+        "frm.exe",
+        "ged.exe",
+        "hed.exe",
+        "HINSTALL.EXE",
+        "Icons.exe",
+        "itgdft.exe",
+        "jpd.exe",
+        "jtncl.exe",
+        "ksn.exe",
+        "ktan.exe",
+        "lcfana.exe",
+        "lcfman.exe",
+        "len.exe",
+        "lmgrd.exe",
+        "lmtools.exe",
+        "lmutil.exe",
+        "loadtemp.exe",
+        "lss.exe",
+        "lvl.exe",
+        "mdm.exe",
+        "megalink.exe",
+        "mfd.exe",
+        "mfm.exe",
+        "mkv.exe",
+        "mlf.exe",
+        "modf.exe",
+        "muledt.exe",
+        "nchkid.exe",
+        "ncl.exe",
+        "NCODE.exe",
+        "ncpens.exe",
+        "ncpref.exe",
+        "ncreg.exe",
+        "nhomereg.exe",
+        "npathreg.exe",
+        "nsoft2005.exe",
+        "nsoft2005_ie4.exe",
+        "nsoft2005_no_ie4.exe",
+        "null.exe",
+        "oct.exe",
+        "odbdriver.exe",
+        "odbupgrade.exe",
+        "order.exe",
+        "p3d.exe",
+        "pkc.exe",
+        "pod.exe",
+        "prefbop.exe",
+        "pretst.exe",
+        "puldis.exe",
+        "pulspd.exe",
+        "pvx.exe",
+        "pvxmul.exe",
+        "qacomp.exe",
+        "qld.exe",
+        "qstats.exe",
+        "rainflow.exe",
+        "regen.exe",
+        "remdac.exe",
+        "remez.exe",
+        "rmn.exe",
+        "rqp.exe",
+        "rstats.exe",
+        "runqa.exe",
+        "s7trans.exe",
+        "saa.exe",
+        "sdrc2fes.exe",
+        "sd_html.exe",
+        "sd_word.exe",
+        "search.exe",
+        "seg.exe",
+        "seltest.exe",
+        "signat.exe",
+        "simmax.exe",
+        "slf.exe",
+        "spk.exe",
+        "sra.exe",
+        "ssa.exe",
+        "sta.exe",
+        "studio.exe",
+        "tablst.exe",
+        "tbe.exe",
+        "tcd.exe",
+        "timdis.exe",
+        "tnsana.exe",
+        "tpd.exe",
+        "translate.exe",
+        "uff.exe",
+        "waves.exe",
+        "weibul.exe",
+        "wflcre.exe",
+        "wnplot.exe",
+        "xya.exe",
+        "zmod.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\MITES-GENSPEC\\bat en M": [
+        "AUTOEXEC.BAT"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\MITES-GENSPEC\\Equipo Caluculos\\FORTRAN\\BD\\MATERIAUX": [
+        "AUTOEXEC.BAT"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\MITES-GENSPEC\\Equipo Caluculos\\FORTRAN\\BIN": [
+        "A300MAIN.EXE",
+        "A310MAIN.EXE",
+        "ANC2.EXE",
+        "ANC21.EXE",
+        "ATTACHES.EXE",
+        "AUTOEXEC.BAT",
+        "CALACN.EXE",
+        "COMDIR.EXE",
+        "CONTLIN.EXE",
+        "CRDYNMP018.EXE",
+        "DEPOU_R45.EXE",
+        "DYNMP002.EXE",
+        "DYNMP003.EXE",
+        "DYNMP004.EXE",
+        "DYNMP005.EXE",
+        "DYNMP006.EXE",
+        "DYNMP007.EXE",
+        "DYNMP007_BHP.EXE",
+        "DYNMP008.EXE",
+        "DYNMP009.EXE",
+        "DYNMP010.EXE",
+        "DYNMP011.EXE",
+        "DYNMP012.EXE",
+        "DYNMP013.EXE",
+        "DYNMP014.EXE",
+        "DYNMP014_BHP.EXE",
+        "DYNMP015.EXE",
+        "DYNMP017.EXE",
+        "DYNMP018.EXE",
+        "DYNMP021.EXE",
+        "DYNMP022.EXE",
+        "DYNMP025.EXE",
+        "DYNMP026.EXE",
+        "DYNMP028.EXE",
+        "DYNMP031.EXE",
+        "DYNMP036.EXE",
+        "DYNMP118.EXE",
+        "DYNMPSTA.EXE",
+        "FATSPEC.EXE",
+        "FC310.EXE",
+        "FCBR.EXE",
+        "FCDT.EXE",
+        "FCTDT.EXE",
+        "FCTDT1.EXE",
+        "FCVERIN.EXE",
+        "FILETAGE.EXE",
+        "FL2CDT.EXE",
+        "FL2CDT1.EXE",
+        "FreeCompil.exe",
+        "GNU2FREE.EXE",
+        "IMP.EXE",
+        "IMP2.EXE",
+        "LODSPEC.EXE",
+        "MITES-2-1.EXE",
+        "MITSPEC.EXE",
+        "PS.EXE",
+        "RAINFLOW-2-2.EXE",
+        "RAINURE.EXE",
+        "SPECTRE.EXE",
+        "SPEQUIV.EXE",
+        "TRACE.exe",
+        "VERIN.EXE",
+        "VERIN1.EXE",
+        "VIRAGE.EXE",
+        "WinA300Main.exe",
+        "WinA310Main.exe",
+        "WinAttaches.exe",
+        "WinCalacn.exe",
+        "WinComdir.exe",
+        "WinContlin.exe",
+        "WinDepou_R45.exe",
+        "WinDynmp.exe",
+        "WinEquilibrus.exe",
+        "WinFatspec.exe",
+        "WinFiletage.exe",
+        "WinFlambage.exe",
+        "WinFormeca.exe",
+        "WinGenerdac.exe",
+        "WinGenespec-1-2.exe",
+        "WinGenespecVL.exe",
+        "WinGnu2Free.exe",
+        "WinImp.exe",
+        "WinLFMSpec-1-1.exe",
+        "WinLFMSpecVL.exe",
+        "WinLodSpec.exe",
+        "WinMites-2-1.exe",
+        "WinMitspec.exe",
+        "WinPS.exe",
+        "WinRainflow-2-2.exe",
+        "WinRainflowVL.exe",
+        "WinSpectre.exe",
+        "WinSpequiv.exe",
+        "WinVirage.exe",
+        "WinWohler.exe",
+        "WOHLER.EXE"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\MITES-GENSPEC\\Equipo Caluculos\\FORTRAN\\BIN\\OLD": [
+        "MITES.EXE",
+        "RAINFLOW.EXE",
+        "WinGenespec.exe",
+        "WinGenespecLight.exe",
+        "WinLFMSpec.exe",
+        "WinMITES.exe",
+        "WinRainflow.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\MITES-GENSPEC\\Equipo Caluculos\\IT\\scenario": [
+        "GENESPEC.EXE",
+        "WinGenespec-1-2.exe",
+        "WinGenespecVL.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\MITES-GENSPEC\\FORTRAN\\BD\\MATERIAUX": [
+        "AUTOEXEC.BAT"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\MITES-GENSPEC\\FORTRAN\\BIN": [
+        "A300MAIN.EXE",
+        "A310MAIN.EXE",
+        "ANC2.EXE",
+        "ANC21.EXE",
+        "ATTACHES.EXE",
+        "AUTOEXEC.BAT",
+        "CALACN.EXE",
+        "COMDIR.EXE",
+        "CONTLIN.EXE",
+        "CRDYNMP018.EXE",
+        "DEPOU_R45.EXE",
+        "DYNMP002.EXE",
+        "DYNMP003.EXE",
+        "DYNMP004.EXE",
+        "DYNMP005.EXE",
+        "DYNMP006.EXE",
+        "DYNMP007.EXE",
+        "DYNMP007_BHP.EXE",
+        "DYNMP008.EXE",
+        "DYNMP009.EXE",
+        "DYNMP010.EXE",
+        "DYNMP011.EXE",
+        "DYNMP012.EXE",
+        "DYNMP013.EXE",
+        "DYNMP014.EXE",
+        "DYNMP014_BHP.EXE",
+        "DYNMP015.EXE",
+        "DYNMP017.EXE",
+        "DYNMP018.EXE",
+        "DYNMP021.EXE",
+        "DYNMP022.EXE",
+        "DYNMP025.EXE",
+        "DYNMP026.EXE",
+        "DYNMP028.EXE",
+        "DYNMP031.EXE",
+        "DYNMP036.EXE",
+        "DYNMP118.EXE",
+        "DYNMPSTA.EXE",
+        "FATSPEC.EXE",
+        "FC310.EXE",
+        "FCBR.EXE",
+        "FCDT.EXE",
+        "FCTDT.EXE",
+        "FCTDT1.EXE",
+        "FCVERIN.EXE",
+        "FILETAGE.EXE",
+        "FL2CDT.EXE",
+        "FL2CDT1.EXE",
+        "FreeCompil.exe",
+        "GNU2FREE.EXE",
+        "IMP.EXE",
+        "IMP2.EXE",
+        "LODSPEC.EXE",
+        "MITES-2-1.EXE",
+        "MITSPEC.EXE",
+        "PS.EXE",
+        "RAINFLOW-2-2.EXE",
+        "RAINURE.EXE",
+        "SPECTRE.EXE",
+        "SPEQUIV.EXE",
+        "TRACE.exe",
+        "VERIN.EXE",
+        "VERIN1.EXE",
+        "VIRAGE.EXE",
+        "WinA300Main.exe",
+        "WinA310Main.exe",
+        "WinAttaches.exe",
+        "WinCalacn.exe",
+        "WinComdir.exe",
+        "WinContlin.exe",
+        "WinDepou_R45.exe",
+        "WinDynmp.exe",
+        "WinEquilibrus.exe",
+        "WinFatspec.exe",
+        "WinFiletage.exe",
+        "WinFlambage.exe",
+        "WinFormeca.exe",
+        "WinGenerdac.exe",
+        "WinGenespec-1-2.exe",
+        "WinGenespecVL.exe",
+        "WinGnu2Free.exe",
+        "WinImp.exe",
+        "WinLFMSpec-1-1.exe",
+        "WinLFMSpecVL.exe",
+        "WinLodSpec.exe",
+        "WinMites-2-1.exe",
+        "WinMitspec.exe",
+        "WinPS.exe",
+        "WinRainflow-2-2.exe",
+        "WinRainflowVL.exe",
+        "WinSpectre.exe",
+        "WinSpequiv.exe",
+        "WinVirage.exe",
+        "WinWohler.exe",
+        "WOHLER.EXE"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\MITES-GENSPEC\\FORTRAN\\BIN\\OLD": [
+        "MITES.EXE",
+        "RAINFLOW.EXE",
+        "WinGenespec.exe",
+        "WinGenespecLight.exe",
+        "WinLFMSpec.exe",
+        "WinMITES.exe",
+        "WinRainflow.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\PDFForge-PDFCreator-4.4.2-ML-x64-1.0.0-SPU": [
+        "Deploy-Application.exe",
+        "Deploy-Application.ps1"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\PDFForge-PDFCreator-4.4.2-ML-x64-1.0.0-SPU\\AppDeployToolkit": [
+        "AppDeployToolkitExtensions.ps1",
+        "AppDeployToolkitHelp.ps1",
+        "AppDeployToolkitMain.ps1"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\PDFForge-PDFCreator-4.4.2-ML-x64-1.0.0-SPU\\Files": [
+        "architect_setup.exe",
+        "NDP472-KB4054531-Web.exe",
+        "Octodiff.exe",
+        "PDFCreator-4_4_2_42836-Setup_x64.msi",
+        "PDFCreatorSetup.exe",
+        "printerhelper.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\PDM\\40": [
+        "Deploy-Application.exe",
+        "Deploy-Application.ps1"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\PDM\\40\\AppDeployToolkit": [
+        "AppDeployToolkitExtensions.ps1",
+        "AppDeployToolkitHelp.ps1",
+        "AppDeployToolkitMain.ps1"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\PDM\\40\\Files\\1": [
+        "winclnt.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\PDM\\40\\Files\\2": [
+        "Teamcenter Enterprise 9.2 (PDM) Prod Configuration Bidos.msi",
+        "Teamcenter Enterprise 9.2 (PDM) Prod Configuration Everett.msi",
+        "Teamcenter Enterprise 9.2 (PDM) Prod Configuration Gloucester.msi",
+        "Teamcenter Enterprise 9.2 (PDM) Prod Configuration Montreal.msi",
+        "Teamcenter Enterprise 9.2 (PDM) Prod Configuration New Velizy.msi",
+        "Teamcenter Enterprise 9.2 (PDM) Prod Configuration Queretaro.msi",
+        "Teamcenter Enterprise 9.2 (PDM) Prod Configuration Toronto.msi"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\PDM\\40\\Files\\3": [
+        "setup.exe",
+        "Teamcenter_Visualization_11_1_2_win64.msi"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\PDM\\40\\Files\\3\\ISSetupPrerequisites\\VS2008SP1": [
+        "vcredist_x64.exe",
+        "vcredist_x86.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\PDM\\40\\Files\\3\\ISSetupPrerequisites\\VS2010SP1": [
+        "vcredist_x64.exe",
+        "vcredist_x86.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\PDM\\40\\Files\\3\\ISSetupPrerequisites\\VS2012U1": [
+        "vcredist_x64.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\PDM\\40\\Files\\3\\ISSetupPrerequisites\\VS2013": [
+        "vcredist_x64.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\PDM\\40\\Files\\3\\scripts": [
+        "CustomInstall.bat",
+        "SEVInstall.bat",
+        "Uninstall.bat"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\PDM\\40\\Files\\3\\WebDeployUtils": [
+        "emptysetup.exe",
+        "MakeWebBootstrapExe.bat",
+        "msistuff.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\PDM\\PDM Queretaro": [
+        "x64-3DVIAComposerPlayer-R2014x-T2.msi"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\PDM\\PDM Queretaro\\config": [
+        "pdmsetup.bat",
+        "pdmv4.bat"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\PDM\\PDM Queretaro\\Install Queretaro": [
+        "TC2007RDXI QUE - NoUsers.msi",
+        "TC2007RDXI QUE.msi"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\PDM\\PDM Queretaro\\Install Queretaro\\TC2007": [
+        "deinstall.bat",
+        "install.bat",
+        "setup.exe",
+        "Teamcenter Enterprise 2007 Client.msi"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\PDM\\PDM Queretaro\\Install Queretaro\\Teamcenter Vizualisation 8.3": [
+        "setup.exe",
+        "Teamcenter_Visualization_8_3.msi",
+        "WindowsInstaller-KB893803-x86.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\PDM\\PDM Queretaro\\Install Queretaro\\Teamcenter Vizualisation 8.3\\ISSetupPrerequisites\\VS2005SP1": [
+        "vcredist.msi",
+        "vcredist_x86.exe",
+        "VCREDI~3.EXE"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\PDM\\PDM Queretaro\\Install Queretaro\\Teamcenter Vizualisation 8.3\\ISSetupPrerequisites\\VS2008SP1": [
+        "vcredist_x86.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\PDM\\PDM Queretaro\\Install Queretaro\\Teamcenter Vizualisation 8.3\\ISSetupPrerequisites\\VS2008SP1\\vcredist_x86": [
+        "install.exe",
+        "vc_red.msi"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\PDM\\PDM Queretaro\\Install Queretaro\\Teamcenter Vizualisation 8.3\\scripts": [
+        "CustomInstall.bat",
+        "SEVInstall.bat",
+        "Uninstall.bat"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\PDM\\PDM Queretaro\\Install Queretaro\\Teamcenter Vizualisation 8.3\\WebDeployUtils": [
+        "emptysetup.exe",
+        "MakeWebBootstrapExe.bat",
+        "msistuff.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\PDM\\PDM Queretaro\\Install Queretaro\\Update": [
+        "TC2007 Config TOR.msi",
+        "Teamcenter Visualization 2007  License Configuration.msi"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\PDM\\PDM Queretaro\\Queretaro\\1-PDM": [
+        "setup.bat",
+        "winclnt.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\PDM\\PDM Queretaro\\Queretaro\\2-PDM Configuration": [
+        "Setup.bat",
+        "setupQAL.bat",
+        "Teamcenter Enterprise 9.2 (PDM) Prod Configuration Queretaro.msi",
+        "Teamcenter Enterprise 9.2 (PDM) Qual Configuration Queretaro.msi"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\PDM\\PDM Queretaro\\Queretaro\\3-VisView 11.1.2": [
+        "setup.bat"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\PDM\\PDM Queretaro\\Queretaro\\3-VisView 11.1.2\\MSI": [
+        "setup.exe",
+        "Teamcenter_Visualization_11_1_2_win64.msi"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\PDM\\PDM Queretaro\\Queretaro\\3-VisView 11.1.2\\MSI\\ISSetupPrerequisites\\VS2008SP1": [
+        "vcredist_x64.exe",
+        "vcredist_x86.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\PDM\\PDM Queretaro\\Queretaro\\3-VisView 11.1.2\\MSI\\ISSetupPrerequisites\\VS2010SP1": [
+        "vcredist_x64.exe",
+        "vcredist_x86.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\PDM\\PDM Queretaro\\Queretaro\\3-VisView 11.1.2\\MSI\\ISSetupPrerequisites\\VS2012U1": [
+        "vcredist_x64.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\PDM\\PDM Queretaro\\Queretaro\\3-VisView 11.1.2\\MSI\\ISSetupPrerequisites\\VS2013": [
+        "vcredist_x64.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\PDM\\PDM Queretaro\\Queretaro\\3-VisView 11.1.2\\MSI\\scripts": [
+        "MBDInstall.bat"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\PDM\\PDM Queretaro\\Queretaro\\3-VisView 11.1.2\\MSI\\WebDeployUtils": [
+        "emptysetup.exe",
+        "MakeWebBootstrapExe.bat",
+        "msistuff.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\PDM\\PDM Queretaro\\Queretaro\\3-VisView 11.1.2\\Prerequisites\\VS2008SP1": [
+        "vcredist_x64.exe",
+        "vcredist_x86.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\PDM\\PDM Queretaro\\Queretaro\\3-VisView 11.1.2\\Prerequisites\\VS2010SP1": [
+        "vcredist_x64.exe",
+        "vcredist_x86.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\PDM\\PDM Queretaro\\Queretaro\\3-VisView 11.1.2\\Prerequisites\\VS2012U1": [
+        "vcredist_x64.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\PDM\\PDM Queretaro\\Queretaro\\3-VisView 11.1.2\\Prerequisites\\VS2013": [
+        "vcredist_x64.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\PDM\\PDM Queretaro\\Queretaro\\4-Catia Player Composer R2015X": [
+        "setup.bat",
+        "x64-CATIAComposerPlayer-R2015x.msi"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\PDM\\Siemens-Teamcenter-Enterprise-Client-9.0-ML-x64-1.0.1-SLS": [
+        "Deploy-Application.exe",
+        "Deploy-Application.ps1"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\PDM\\Siemens-Teamcenter-Enterprise-Client-9.0-ML-x64-1.0.1-SLS\\AppDeployToolkit": [
+        "AppDeployToolkitExtensions.ps1",
+        "AppDeployToolkitHelp.ps1",
+        "AppDeployToolkitMain.ps1",
+        "RunHidden.vbs"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\PDM\\Siemens-Teamcenter-Enterprise-Client-9.0-ML-x64-1.0.1-SLS\\Files": [
+        "Get-CodeSiteUD6.ps1"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\PDM\\Siemens-Teamcenter-Enterprise-Client-9.0-ML-x64-1.0.1-SLS\\Files\\1": [
+        "winclnt.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\PDM\\Siemens-Teamcenter-Enterprise-Client-9.0-ML-x64-1.0.1-SLS\\Files\\2": [
+        "Teamcenter Enterprise 9.2 (PDM) Prod Configuration Bidos.msi",
+        "Teamcenter Enterprise 9.2 (PDM) Prod Configuration Everett.msi",
+        "Teamcenter Enterprise 9.2 (PDM) Prod Configuration Gloucester.msi",
+        "Teamcenter Enterprise 9.2 (PDM) Prod Configuration Montreal.msi",
+        "Teamcenter Enterprise 9.2 (PDM) Prod Configuration New Velizy.msi",
+        "Teamcenter Enterprise 9.2 (PDM) Prod Configuration Queretaro.msi",
+        "Teamcenter Enterprise 9.2 (PDM) Prod Configuration Toronto.msi"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\PDM\\Siemens-Teamcenter-Enterprise-Client-9.0-ML-x64-1.0.1-SLS\\Files\\3": [
+        "setup.exe",
+        "Teamcenter_Visualization_11_1_2_win64.msi"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\PDM\\Siemens-Teamcenter-Enterprise-Client-9.0-ML-x64-1.0.1-SLS\\Files\\3\\ISSetupPrerequisites\\VS2008SP1": [
+        "vcredist_x64.exe",
+        "vcredist_x86.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\PDM\\Siemens-Teamcenter-Enterprise-Client-9.0-ML-x64-1.0.1-SLS\\Files\\3\\ISSetupPrerequisites\\VS2010SP1": [
+        "vcredist_x64.exe",
+        "vcredist_x86.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\PDM\\Siemens-Teamcenter-Enterprise-Client-9.0-ML-x64-1.0.1-SLS\\Files\\3\\ISSetupPrerequisites\\VS2012U1": [
+        "vcredist_x64.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\PDM\\Siemens-Teamcenter-Enterprise-Client-9.0-ML-x64-1.0.1-SLS\\Files\\3\\ISSetupPrerequisites\\VS2013": [
+        "vcredist_x64.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\PDM\\Siemens-Teamcenter-Enterprise-Client-9.0-ML-x64-1.0.1-SLS\\Files\\3\\scripts": [
+        "CustomInstall.bat",
+        "SEVInstall.bat",
+        "Uninstall.bat"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\PDM\\Siemens-Teamcenter-Enterprise-Client-9.0-ML-x64-1.0.1-SLS\\Files\\3\\WebDeployUtils": [
+        "emptysetup.exe",
+        "MakeWebBootstrapExe.bat",
+        "msistuff.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\POWERBI": [
+        "PBIDesktopSetup_x64.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\SmarTeam_WMT-V56R2015SP4-EN-x64-1.0.0-SLS": [
+        "Deploy-Application.exe",
+        "Deploy-Application.ps1",
+        "SmarTeam.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\SmarTeam_WMT-V56R2015SP4-EN-x64-1.0.0-SLS\\AppDeployToolkit": [
+        "AppDeployToolkitExtensions.ps1",
+        "AppDeployToolkitHelp.ps1",
+        "AppDeployToolkitMain.ps1"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\drivers landing\\SmarTeam_WMT-V56R2015SP4-EN-x64-1.0.0-SLS\\Files": [
+        "SmarTeam - Editor V5-6R2015 WMT.msi"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\icad": [
+        "Deploy-Application.exe",
+        "Deploy-Application.ps1",
+        "iCAD-EnvVar_QUD.bat"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\icad\\AppDeployToolkit": [
+        "AppDeployToolkitExtensions.ps1",
+        "AppDeployToolkitHelp.ps1",
+        "AppDeployToolkitMain.ps1"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\icad\\Files": [
+        "iCAD 2.0.0.msi"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\MathCAD 15": [
+        "dotnetfx35.exe",
+        "msxml.msi",
+        "msxml4-kb2758694-enu_24abccbcceaf5bea9c3e34ff1f64c2aa3d57e308 (1).exe",
+        "pim_installmgr_32.exe",
+        "setup.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\MathCAD 15\\adobe": [
+        "Distillr.msi",
+        "Setup.exe",
+        "WindowsInstaller-KB893803-v2-x86.exe",
+        "WindowsXP-KB898715-x64-enu.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\MathCAD 15\\dsrc\\i486_nt": [
+        "gunzip.exe",
+        "tar.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\MathCAD 15\\dsrc\\i486_nt\\obj": [
+        "ptcsetup.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\MathCAD 15\\dsrc\\x86e_win64": [
+        "gunzip.exe",
+        "tar.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\MathCAD 15\\dsrc\\x86e_win64\\obj": [
+        "ptcsetup.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\MathCAD 15\\mathcad": [
+        "Mathcad15WixInstaller.msi"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\MathCAD 15\\uninstall\\i486_nt\\obj": [
+        "pscn.exe",
+        "psuninst.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\MathCAD 15\\uninstall\\x86e_win64\\obj": [
+        "pscn.exe",
+        "psuninst.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\NCODE\\MDFAS 12 Windows 7\\Sources": [
+        "MDFAS 12.msi",
+        "MDFAS120.bat"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\NCODE\\MDFAS 12 Windows 7\\Sources\\MDFAS\\MDFAS12x": [
+        "MDFAS120_Setup_User - Copie.vbs",
+        "MDFAS120_Setup_User.vbs",
+        "MDFAS120_UnInstall.vbs",
+        "SetNcodeHome.vbs",
+        "ViewNcodeHome.vbs"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\NCODE\\MDFAS 12 Windows 7\\Sources\\MDFAS\\MDFAS12x\\MDFAS120": [
+        "Change.exe",
+        "InputDirectory.exe",
+        "MDFAS120.vbs",
+        "section_form.exe",
+        "SetNcodeHome.vbs",
+        "UpdateHome.vbs",
+        "ViewNcodeHome.vbs"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\NCODE\\MDFAS 12 Windows 7\\Sources\\MDFAS\\MDFAS12x\\MDFAS120\\Install-MDFAS120-NHome\\MDFAS120-Custom": [
+        "Change.exe",
+        "InputDirectory.exe",
+        "MDFAS120.vbs",
+        "section_form.exe",
+        "SetNcodeHome.vbs",
+        "UpdateHome.vbs",
+        "ViewNcodeHome.vbs"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\NCODE\\MDFAS 12 Windows 7\\Sources\\MDFAS\\MDFAS12x\\nCode\\GlyphWorks\\bin": [
+        "appserver.exe",
+        "asamconfig.exe",
+        "asciitranslate.exe",
+        "cleanupprocserver.exe",
+        "cmdnowin.exe",
+        "dataloaderprocserver.exe",
+        "dtlibgui.exe",
+        "dtlibqa.exe",
+        "dtproc.exe",
+        "dump.exe",
+        "dumpmeta.exe",
+        "echoprocserver.exe",
+        "filemonitor.exe",
+        "filestoreprocserver.exe",
+        "flowproc.exe",
+        "flowprocserver.exe",
+        "gazetteerprocserver.exe",
+        "gzip.exe",
+        "HINSTALL.EXE",
+        "iceflow.exe",
+        "kamtranslate.exe",
+        "lmgrd.exe",
+        "lmtools.exe",
+        "lmutil.exe",
+        "logserver.exe",
+        "logviewer.exe",
+        "modf.exe",
+        "nchkid.exe",
+        "NCODE.exe",
+        "ncpref.exe",
+        "nhead.exe",
+        "nhomereg.exe",
+        "ntail.exe",
+        "odbdriver.exe",
+        "odbupgrade.exe",
+        "prefbop.exe",
+        "qacomp.exe",
+        "quickcalculator.exe",
+        "rainflow.exe",
+        "schedulecreate.exe",
+        "sd_html.exe",
+        "sd_word.exe",
+        "seltest.exe",
+        "studio.exe",
+        "studioprocserver.exe",
+        "tar.exe",
+        "TCBServer.exe",
+        "testclient.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\NCODE\\MDFAS 12 Windows 7\\Sources\\MDFAS\\MDFAS12x\\nCode\\GlyphWorks\\ClientInstall": [
+        "ClientInstall.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\NCODE\\MDFAS 12 Windows 7\\Sources\\MDFAS\\MDFAS12x\\nCode\\GlyphWorks\\nssys": [
+        "rld_iceflow.bat"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\NCODE\\MDFAS 12 Windows 7\\Sources\\MDFAS\\MDFAS12x\\nSoft_2005\\bin": [
+        "accf.exe",
+        "ada.exe",
+        "andefine.exe",
+        "andetect.exe",
+        "anmuledt.exe",
+        "art.exe",
+        "asd.exe",
+        "atd.exe",
+        "bfl.exe",
+        "bin2asc.exe",
+        "cambel.exe",
+        "cda.exe",
+        "clf.exe",
+        "cmdnowin.exe",
+        "coe.exe",
+        "confil.exe",
+        "contor.exe",
+        "copy_fe7_isr1.bat",
+        "crl.exe",
+        "cuscor.exe",
+        "cyc.exe",
+        "cyl.exe",
+        "dacrem.exe",
+        "dacwav.exe",
+        "damedt.exe",
+        "damgat.exe",
+        "datagate.exe",
+        "datagatedemux.exe",
+        "dta.exe",
+        "dump.exe",
+        "edarem.exe",
+        "enm.exe",
+        "equswt.exe",
+        "fatde.exe",
+        "fatduty.exe",
+        "fatfe.exe",
+        "fatmds.exe",
+        "fatmon.exe",
+        "fatres.exe",
+        "fcd.exe",
+        "fcg.exe",
+        "fe2fes.exe",
+        "fe2txt.exe",
+        "fef2fer.exe",
+        "fef2frs.exe",
+        "fef2hyp.exe",
+        "fef2odb.exe",
+        "fef2unv.exe",
+        "fefcom.exe",
+        "FEFNAE.EXE",
+        "ferupgrade.exe",
+        "ferutil.exe",
+        "fescom.exe",
+        "feshed.exe",
+        "fff.exe",
+        "filmnp.exe",
+        "flf.exe",
+        "fndver.exe",
+        "fppcom.exe",
+        "fppdump.exe",
+        "fpphcopy.exe",
+        "fra.exe",
+        "frm.exe",
+        "ged.exe",
+        "hed.exe",
+        "HINSTALL.EXE",
+        "Icons.exe",
+        "itgdft.exe",
+        "jpd.exe",
+        "jtncl.exe",
+        "ksn.exe",
+        "ktan.exe",
+        "lcfana.exe",
+        "lcfman.exe",
+        "len.exe",
+        "lmgrd.exe",
+        "lmtools.exe",
+        "lmutil.exe",
+        "loadtemp.exe",
+        "lss.exe",
+        "lvl.exe",
+        "mdm.exe",
+        "megalink.exe",
+        "mfd.exe",
+        "mfm.exe",
+        "mkv.exe",
+        "mlf.exe",
+        "modf.exe",
+        "muledt.exe",
+        "nchkid.exe",
+        "ncl.exe",
+        "NCODE.exe",
+        "ncpens.exe",
+        "ncpref.exe",
+        "ncreg.exe",
+        "nhomereg.exe",
+        "npathreg.exe",
+        "nsoft2005.exe",
+        "nsoft2005_ie4.exe",
+        "nsoft2005_no_ie4.exe",
+        "null.exe",
+        "oct.exe",
+        "odbdriver.exe",
+        "odbupgrade.exe",
+        "order.exe",
+        "p3d.exe",
+        "pkc.exe",
+        "pod.exe",
+        "prefbop.exe",
+        "pretst.exe",
+        "puldis.exe",
+        "pulspd.exe",
+        "pvx.exe",
+        "pvxmul.exe",
+        "qacomp.exe",
+        "qld.exe",
+        "qstats.exe",
+        "rainflow.exe",
+        "regen.exe",
+        "remdac.exe",
+        "remez.exe",
+        "rmn.exe",
+        "rqp.exe",
+        "rstats.exe",
+        "runqa.exe",
+        "s7trans.exe",
+        "saa.exe",
+        "sdrc2fes.exe",
+        "sd_html.exe",
+        "sd_word.exe",
+        "search.exe",
+        "seg.exe",
+        "seltest.exe",
+        "signat.exe",
+        "simmax.exe",
+        "slf.exe",
+        "spk.exe",
+        "sra.exe",
+        "ssa.exe",
+        "sta.exe",
+        "studio.exe",
+        "tablst.exe",
+        "tbe.exe",
+        "tcd.exe",
+        "timdis.exe",
+        "tnsana.exe",
+        "tpd.exe",
+        "translate.exe",
+        "uff.exe",
+        "waves.exe",
+        "weibul.exe",
+        "wflcre.exe",
+        "wnplot.exe",
+        "xya.exe",
+        "zmod.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\NCODE\\MDFAS 12 Windows 7\\Sources\\Patch\\MDFAS120_Patch_20110916\\MDFAS120_Patch_20110916": [
+        "fe2fes.exe",
+        "_RegisterFer_to_Studio.bat",
+        "_SetupSeattle.bat",
+        "_SetupToronto.bat",
+        "__InstallPatch.bat"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\NCODE\\MDFAS 12 Windows 7\\Sources\\Sources Altiris\\MDFAS12": [
+        "fe2fes.exe",
+        "install_MDFAS_120.bat",
+        "install_MDFAS_120_patch.bat",
+        "MDFAS 12.msi",
+        "MDFAS120.bat",
+        "_RegisterFer_to_Studio.bat",
+        "_SetupSeattle.bat",
+        "_SetupToronto.bat",
+        "__InstallPatch.bat"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\NCODE\\MDFAS 12 Windows 7\\Sources\\Sources Altiris\\MDFAS12\\MDFAS\\MDFAS12x": [
+        "MDFAS120_Setup_User - Copie.vbs",
+        "MDFAS120_Setup_User.vbs",
+        "MDFAS120_UnInstall.vbs",
+        "SetNcodeHome.vbs",
+        "ViewNcodeHome.vbs"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\NCODE\\MDFAS 12 Windows 7\\Sources\\Sources Altiris\\MDFAS12\\MDFAS\\MDFAS12x\\MDFAS120": [
+        "Change.exe",
+        "InputDirectory.exe",
+        "MDFAS120.vbs",
+        "section_form.exe",
+        "SetNcodeHome.vbs",
+        "UpdateHome.vbs",
+        "ViewNcodeHome.vbs"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\NCODE\\MDFAS 12 Windows 7\\Sources\\Sources Altiris\\MDFAS12\\MDFAS\\MDFAS12x\\MDFAS120\\Install-MDFAS120-NHome\\MDFAS120-Custom": [
+        "Change.exe",
+        "InputDirectory.exe",
+        "MDFAS120.vbs",
+        "section_form.exe",
+        "SetNcodeHome.vbs",
+        "UpdateHome.vbs",
+        "ViewNcodeHome.vbs"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\NCODE\\MDFAS 12 Windows 7\\Sources\\Sources Altiris\\MDFAS12\\MDFAS\\MDFAS12x\\nCode\\GlyphWorks\\bin": [
+        "appserver.exe",
+        "asamconfig.exe",
+        "asciitranslate.exe",
+        "cleanupprocserver.exe",
+        "cmdnowin.exe",
+        "dataloaderprocserver.exe",
+        "dtlibgui.exe",
+        "dtlibqa.exe",
+        "dtproc.exe",
+        "dump.exe",
+        "dumpmeta.exe",
+        "echoprocserver.exe",
+        "filemonitor.exe",
+        "filestoreprocserver.exe",
+        "flowproc.exe",
+        "flowprocserver.exe",
+        "gazetteerprocserver.exe",
+        "gzip.exe",
+        "HINSTALL.EXE",
+        "iceflow.exe",
+        "kamtranslate.exe",
+        "lmgrd.exe",
+        "lmtools.exe",
+        "lmutil.exe",
+        "logserver.exe",
+        "logviewer.exe",
+        "modf.exe",
+        "nchkid.exe",
+        "NCODE.exe",
+        "ncpref.exe",
+        "nhead.exe",
+        "nhomereg.exe",
+        "ntail.exe",
+        "odbdriver.exe",
+        "odbupgrade.exe",
+        "prefbop.exe",
+        "qacomp.exe",
+        "quickcalculator.exe",
+        "rainflow.exe",
+        "schedulecreate.exe",
+        "sd_html.exe",
+        "sd_word.exe",
+        "seltest.exe",
+        "studio.exe",
+        "studioprocserver.exe",
+        "tar.exe",
+        "TCBServer.exe",
+        "testclient.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\NCODE\\MDFAS 12 Windows 7\\Sources\\Sources Altiris\\MDFAS12\\MDFAS\\MDFAS12x\\nCode\\GlyphWorks\\ClientInstall": [
+        "ClientInstall.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\NCODE\\MDFAS 12 Windows 7\\Sources\\Sources Altiris\\MDFAS12\\MDFAS\\MDFAS12x\\nCode\\GlyphWorks\\nssys": [
+        "rld_iceflow.bat"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\NCODE\\MDFAS 12 Windows 7\\Sources\\Sources Altiris\\MDFAS12\\MDFAS\\MDFAS12x\\nSoft_2005\\bin": [
+        "accf.exe",
+        "ada.exe",
+        "andefine.exe",
+        "andetect.exe",
+        "anmuledt.exe",
+        "art.exe",
+        "asd.exe",
+        "atd.exe",
+        "bfl.exe",
+        "bin2asc.exe",
+        "cambel.exe",
+        "cda.exe",
+        "clf.exe",
+        "cmdnowin.exe",
+        "coe.exe",
+        "confil.exe",
+        "contor.exe",
+        "copy_fe7_isr1.bat",
+        "crl.exe",
+        "cuscor.exe",
+        "cyc.exe",
+        "cyl.exe",
+        "dacrem.exe",
+        "dacwav.exe",
+        "damedt.exe",
+        "damgat.exe",
+        "datagate.exe",
+        "datagatedemux.exe",
+        "dta.exe",
+        "dump.exe",
+        "edarem.exe",
+        "enm.exe",
+        "equswt.exe",
+        "fatde.exe",
+        "fatduty.exe",
+        "fatfe.exe",
+        "fatmds.exe",
+        "fatmon.exe",
+        "fatres.exe",
+        "fcd.exe",
+        "fcg.exe",
+        "fe2fes.exe",
+        "fe2txt.exe",
+        "fef2fer.exe",
+        "fef2frs.exe",
+        "fef2hyp.exe",
+        "fef2odb.exe",
+        "fef2unv.exe",
+        "fefcom.exe",
+        "FEFNAE.EXE",
+        "ferupgrade.exe",
+        "ferutil.exe",
+        "fescom.exe",
+        "feshed.exe",
+        "fff.exe",
+        "filmnp.exe",
+        "flf.exe",
+        "fndver.exe",
+        "fppcom.exe",
+        "fppdump.exe",
+        "fpphcopy.exe",
+        "fra.exe",
+        "frm.exe",
+        "ged.exe",
+        "hed.exe",
+        "HINSTALL.EXE",
+        "Icons.exe",
+        "itgdft.exe",
+        "jpd.exe",
+        "jtncl.exe",
+        "ksn.exe",
+        "ktan.exe",
+        "lcfana.exe",
+        "lcfman.exe",
+        "len.exe",
+        "lmgrd.exe",
+        "lmtools.exe",
+        "lmutil.exe",
+        "loadtemp.exe",
+        "lss.exe",
+        "lvl.exe",
+        "mdm.exe",
+        "megalink.exe",
+        "mfd.exe",
+        "mfm.exe",
+        "mkv.exe",
+        "mlf.exe",
+        "modf.exe",
+        "muledt.exe",
+        "nchkid.exe",
+        "ncl.exe",
+        "NCODE.exe",
+        "ncpens.exe",
+        "ncpref.exe",
+        "ncreg.exe",
+        "nhomereg.exe",
+        "npathreg.exe",
+        "nsoft2005.exe",
+        "nsoft2005_ie4.exe",
+        "nsoft2005_no_ie4.exe",
+        "null.exe",
+        "oct.exe",
+        "odbdriver.exe",
+        "odbupgrade.exe",
+        "order.exe",
+        "p3d.exe",
+        "pkc.exe",
+        "pod.exe",
+        "prefbop.exe",
+        "pretst.exe",
+        "puldis.exe",
+        "pulspd.exe",
+        "pvx.exe",
+        "pvxmul.exe",
+        "qacomp.exe",
+        "qld.exe",
+        "qstats.exe",
+        "rainflow.exe",
+        "regen.exe",
+        "remdac.exe",
+        "remez.exe",
+        "rmn.exe",
+        "rqp.exe",
+        "rstats.exe",
+        "runqa.exe",
+        "s7trans.exe",
+        "saa.exe",
+        "sdrc2fes.exe",
+        "sd_html.exe",
+        "sd_word.exe",
+        "search.exe",
+        "seg.exe",
+        "seltest.exe",
+        "signat.exe",
+        "simmax.exe",
+        "slf.exe",
+        "spk.exe",
+        "sra.exe",
+        "ssa.exe",
+        "sta.exe",
+        "studio.exe",
+        "tablst.exe",
+        "tbe.exe",
+        "tcd.exe",
+        "timdis.exe",
+        "tnsana.exe",
+        "tpd.exe",
+        "translate.exe",
+        "uff.exe",
+        "waves.exe",
+        "weibul.exe",
+        "wflcre.exe",
+        "wnplot.exe",
+        "xya.exe",
+        "zmod.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Python\\89": [
+        "Deploy-Application.exe",
+        "Deploy-Application.ps1"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Python\\89\\AppDeployToolkit": [
+        "AppDeployToolkitExtensions.ps1",
+        "AppDeployToolkitHelp.ps1",
+        "AppDeployToolkitMain.ps1"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Python\\89\\Files": [
+        "python-3.9.5-amd64.exe"
+    ],
+    "SAFRAN APPS LAPTOP DELL PRECISION 7680 INGENIERIA - NLG\\Qasq-it MBD (Q10) - QSTUDIO\\msi_x64": [
+        "QStudio.msi",
+        "setup.exe"
+    ],
+    "SAP\\SAP 3msi": [
+        "Deploy-Application.exe",
+        "Deploy-Application.ps1"
+    ],
+    "SAP\\SAP 3msi\\AppDeployToolkit": [
+        "AppDeployToolkitExtensions.ps1",
+        "AppDeployToolkitHelp.ps1",
+        "AppDeployToolkitMain.ps1",
+        "RunHidden.vbs"
+    ],
+    "SAP\\SAP 3msi\\Files": [
+        "GUI800_11-80006341.EXE",
+        "GUI800_9-80006341.EXE",
+        "SAPSetupSLC02_21-80001954.EXE"
+    ],
+    "SAP\\SAP 3msi\\Files\\SAPCRYPTOLIBP_8553-20011731": [
+        "sapgenpse.exe"
+    ],
+    "SAP\\SAP ConfigFiles": [
+        "Deploy-Application.exe",
+        "Deploy-Application.ps1"
+    ],
+    "SAP\\SAP ConfigFiles\\AppDeployToolkit": [
+        "AppDeployToolkitExtensions.ps1",
+        "AppDeployToolkitHelp.ps1",
+        "AppDeployToolkitMain.ps1",
+        "RunHidden.vbs"
+    ],
+    "SAP\\SAP ConfigFiles\\Files\\SAP_AS": [
+        "SAP_Conf_AS.ps1"
+    ],
+    "SCCM": [
+        "ccmclean.exe",
+        "ccmsetup.exe",
+        "sscm.ps1"
+    ],
+    "Symantec-Endpoint_Protection-14.3.11216.9000-EN-1.0.0-SEP": [
+        "Deploy-Application.exe",
+        "Deploy-Application.ps1"
+    ],
+    "Symantec-Endpoint_Protection-14.3.11216.9000-EN-1.0.0-SEP\\AppDeployToolkit": [
+        "AppDeployToolkitExtensions.ps1",
+        "AppDeployToolkitHelp.ps1",
+        "AppDeployToolkitMain.ps1",
+        "RunHidden.vbs"
+    ],
+    "Test_Ncode": [
+        "S4_A320-Basic.bat"
+    ],
+    "Trellix-Uninstall_Agent-EN-x64-1.0.0": [
+        "Deploy-Application.exe",
+        "Deploy-Application.ps1"
+    ],
+    "Trellix-Uninstall_Agent-EN-x64-1.0.0\\AppDeployToolkit": [
+        "AppDeployToolkitExtensions.ps1",
+        "AppDeployToolkitHelp.ps1",
+        "AppDeployToolkitMain.ps1"
+    ],
+    "Trellix-Uninstall_Agent-EN-x64-1.0.0\\Files\\Removal": [
+        "EndpointProductRemoval.exe",
+        "execute_epr.bat"
+    ],
+    "Viewer V18 SP2": [
+        "MetrologX4Viewer-V18SP2-x64.exe"
+    ],
+    "Viewer V24GA": [
+        "MetrologX4Viewer-V24GA-x64.exe"
+    ],
+    "ZoneZentral": [
+        "Deploy-Application.exe",
+        "Deploy-Application.ps1"
+    ],
+    "ZoneZentral\\AppDeployToolkit": [
+        "AppDeployToolkitExtensions.ps1",
+        "AppDeployToolkitHelp.ps1",
+        "AppDeployToolkitMain.ps1",
+        "RunHidden.vbs"
+    ],
+    "ZoneZentral\\Files": [
+        "ZC2024.4x64.msi"
+    ],
+    "Zscaler": [
+        "Deploy-Application.exe",
+        "Deploy-Application.ps1"
+    ],
+    "Zscaler\\AppDeployToolkit": [
+        "AppDeployToolkitExtensions.ps1",
+        "AppDeployToolkitHelp.ps1",
+        "AppDeployToolkitMain.ps1"
+    ],
+    "Zscaler\\Files": [
+        "Zscaler-windows-4.5.0.381-installer-x64.msi"
+    ],
+    "Zscaler\\Files\\SkyHigh": [
+        "ScpInstaller.x64.msi"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "profile_name": "Metrolog Viewer x18",
+    "source_folder_name": "F:\\INSTALADORES\\METROLOGS\\Viewer V18 SP2",
+    "steps": [
+        {
+            "type": "copy",
+            "description": "Copiando Metrolog Viewer x18 a local",
+            "fail_on_error": true
+        },
+        {
+            "type": "admin_install",
+            "description": "Instalando Metrolog Viewer x18",
+            "executable": "MetrologX4Viewer-V18SP2-x64.exe",
+            "arguments": "/quiet /norestart",
+            "fail_on_error": true
+        }
+    ]
+}

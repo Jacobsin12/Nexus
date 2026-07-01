@@ -1,0 +1,125 @@
+/* ===================================
+   Toasts — Unified Notification System
+   =================================== */
+
+.toast-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 9999;
+    pointer-events: none;
+}
+
+.toast {
+    background: rgba(15, 23, 42, 0.95);
+    backdrop-filter: blur(10px);
+    border-left: 4px solid var(--accent-primary);
+    border-radius: 8px;
+    padding: 14px 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    max-width: 350px;
+    pointer-events: auto;
+
+    /* Animación de entrada/salida */
+    transform: translateX(120%);
+    opacity: 0;
+    transition: 
+        transform 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55),
+        opacity 0.4s ease;
+}
+
+.toast.show {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+/* Variantes */
+.toast.success {
+    border-left-color: var(--success-color);
+}
+
+.toast.success i {
+    color: var(--success-color);
+}
+
+.toast.error {
+    border-left-color: var(--danger-color);
+}
+
+.toast.error i {
+    color: var(--danger-color);
+}
+
+.toast.info {
+    border-left-color: #38bdf8;
+}
+
+.toast.info i {
+    color: #38bdf8;
+}
+
+.toast i {
+    font-size: 1.5rem;
+    flex-shrink: 0;
+}
+
+.toast-message {
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+/* Copy Button inside Toast */
+.toast-copy-btn {
+    background: none;
+    border: none;
+    color: inherit;
+    opacity: 0.6;
+    cursor: pointer;
+    padding: 6px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+    margin-left: auto;
+}
+
+.toast-copy-btn:hover {
+    opacity: 1 !important;
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.toast-copy-btn:active {
+    transform: scale(0.95);
+}
+
+/* Close Button inside Toast */
+.toast-close-btn {
+    background: none;
+    border: none;
+    color: inherit;
+    opacity: 0.6;
+    cursor: pointer;
+    padding: 6px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+}
+
+.toast-close-btn:hover {
+    opacity: 1 !important;
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.toast-close-btn:active {
+    transform: scale(0.95);
+}

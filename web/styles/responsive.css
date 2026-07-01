@@ -1,0 +1,51 @@
+/* ===================================
+   Responsive — Window Mode Queries
+   =================================== */
+
+@media (max-width: 900px) {
+    body {
+        overflow: auto;
+    }
+
+    .app-container {
+        flex-direction: column;
+        height: auto;
+        min-height: 100vh;
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .sidebar {
+        width: 100%;
+        max-height: 250px;
+        flex: none;
+    }
+
+    .disk-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+
+    .disk-item {
+        flex: 1;
+        min-width: 200px;
+    }
+
+    .main-content {
+        flex: none;
+        height: auto;
+    }
+}
+
+@media (max-height: 700px) {
+    body {
+        overflow: auto;
+    }
+
+    .app-container {
+        height: auto;
+        min-height: 100vh;
+    }
+}

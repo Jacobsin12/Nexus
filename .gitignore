@@ -1,0 +1,13 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller build files
+build/
+
+# Local databases and logs
+*.db
+*.csv
+.app_profile/
+*.log
