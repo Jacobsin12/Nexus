@@ -4,14 +4,54 @@ import sys
 import socket
 import datetime
 
+def test_write_access(directory_path):
+    """Intenta crear el directorio y escribir un archivo de prueba para validar el acceso real."""
+    try:
+        os.makedirs(directory_path, exist_ok=True)
+        test_file = os.path.join(directory_path, ".write_test")
+        with open(test_file, "w", encoding="utf-8") as f:
+            f.write("test")
+        os.remove(test_file)
+        return True
+    except Exception:
+        return False
+
+
 def get_user_data_dir():
-    """Retorna el directorio de datos de usuario persistente (AppData/Local/Nexus)."""
-    appdata = os.environ.get("LOCALAPPDATA")
-    if not appdata:
-        appdata = os.path.join(os.path.expanduser("~"), "AppData", "Local")
-    path = os.path.join(appdata, "Nexus")
-    os.makedirs(path, exist_ok=True)
-    return path
+    """Retorna una ruta absoluta y escribible para los datos del usuario."""
+    # 1. Intentar LOCALAPPDATA
+    local_appdata = os.environ.get("LOCALAPPDATA")
+    if local_appdata:
+        path = os.path.join(local_appdata, "Nexus")
+        if test_write_access(path):
+            return path
+
+    # 2. Intentar APPDATA
+    appdata = os.environ.get("APPDATA")
+    if appdata:
+        path = os.path.join(appdata, "Nexus")
+        if test_write_access(path):
+            return path
+
+    # 3. Intentar USERPROFILE
+    user_profile = os.environ.get("USERPROFILE")
+    if user_profile:
+        path = os.path.join(user_profile, "AppData", "Local", "Nexus")
+        if test_write_access(path):
+            return path
+
+    # 4. Fallback al directorio del ejecutable o CWD
+    if getattr(sys, 'frozen', False):
+        path = os.path.join(os.path.dirname(sys.executable), ".nexus")
+    else:
+        path = os.path.abspath(".nexus")
+    if test_write_access(path):
+        return path
+
+    # 5. Último recurso absoluto: Carpeta temporal de Windows (siempre escribible)
+    import tempfile
+    return tempfile.gettempdir()
+
 
 DB_PATH = os.path.join(get_user_data_dir(), 'audit_logs.db')
 
